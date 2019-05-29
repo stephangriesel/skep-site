@@ -1,0 +1,43 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav {
+  display:flex;
+  align-content: center;
+  align-items: center;
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  li {
+    margin:0 10px;
+  }
+}
+
+img {
+  width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  nav {
+    display:flex;
+    flex-direction: column;
+    ul {
+      display:flex;
+      margin:0;
+      flex-direction: column;
+      padding-inline-start: 0;
+    }
+    li {
+      margin:0;
+    }
+  }
+
+}
