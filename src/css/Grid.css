@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+main {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 0.5rem;
+  -ms-grid-columns: minmax(18rem, 1fr) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  cursor: pointer;
+}
+
+main .card {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+main .card:nth-of-type(1) {
+  background: rgba(228, 228, 228, 0.335);
+}
+
+main .card:nth-of-type(2) {
+  background: rgba(228, 228, 228, 0.089);
+}
+
+main .card:nth-of-type(3) {
+  background: rgba(228, 228, 228, 0.911);
+}
+
+main .card:nth-of-type(4) {
+  background: rgba(228, 228, 228, 0.171);
+}
+
+main .card:nth-of-type(5) {
+  background: rgba(228, 228, 228, 0.479);
+}
+
+main .card:nth-of-type(6) {
+  background: rgba(228, 228, 228, 0.822);
+}
+
+main .card:nth-of-type(7) {
+  background: rgba(228, 228, 228, 0.644);
+}
+
+main .card:nth-of-type(8) {
+  background: #e4e4e4;
+}
+
+main .card:nth-of-type(9) {
+  background: rgba(228, 228, 228, 0.966);
+}
+
+main .card:nth-of-type(10) {
+  background: rgba(228, 228, 228, 0.616);
+}
+
+main .card:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+main .card img {
+  width: 100%;
+}
+/*# sourceMappingURL=Grid.css.map */
