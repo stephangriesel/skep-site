@@ -38,6 +38,12 @@ img {
     li {
       margin:0;
     }
+    .social-icons {
+      ul {
+        display:flex;
+        flex-direction: row;
+      }
+    }
   }
 
 }
