@@ -16,11 +16,11 @@ class Footer extends Component {
             <div className="btm-icons">
                 <p><i className="far fa-copyright"></i> 2019 SKEP</p>
                 <div>
-                <i class="fab fa-cc-amex icon"></i>
-                <i class="fab fa-cc-diners-club icon"></i>
-                <i class="fab fa-cc-mastercard icon"></i>
-                <i class="fab fa-cc-visa icon"></i>
-                <i class="fab fa-paypal icon"></i>
+                <i className="fab fa-cc-amex icon"></i>
+                <i className="fab fa-cc-diners-club icon"></i>
+                <i className="fab fa-cc-mastercard icon"></i>
+                <i className="fab fa-cc-visa icon"></i>
+                <i className="fab fa-paypal icon"></i>
                 </div>
             </div>
             </div>

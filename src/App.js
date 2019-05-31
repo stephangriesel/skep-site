@@ -6,9 +6,6 @@ import Grid from './components/Grid';
 import Footer from './components/Footer';
 
 class App extends Component {
-  state = {
-    showMenu: false
-  }
 
   render() {
     return (

@@ -4,8 +4,13 @@ header {
   justify-content:space-between;
 }
 
-img {
+.logo-img {
   width: 100px;
+}
+
+.burger-img {
+  display:none;
+
 }
 
 nav {
@@ -38,8 +43,20 @@ nav {
 
 
 @media screen and (max-width: 768px) {
-  img {
+  .logo-img {
     width: 220px;
+  }
+
+  .burger-img {
+    display: inline;
+    width: 30px;
+  }
+  .burger-img:hover {
+    display: inline;
+    transform: rotate(180deg);
+    transition: 0.8s;
+    cursor: pointer;
+    width: 30px;
   }
 
   header {

@@ -11,8 +11,12 @@ header {
           justify-content: space-between;
 }
 
-img {
+.logo-img {
   width: 100px;
+}
+
+.burger-img {
+  display: none;
 }
 
 nav {
@@ -60,8 +64,21 @@ nav li {
 }
 
 @media screen and (max-width: 768px) {
-  img {
+  .logo-img {
     width: 220px;
+  }
+  .burger-img {
+    display: inline;
+    width: 30px;
+  }
+  .burger-img:hover {
+    display: inline;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    cursor: pointer;
+    width: 30px;
   }
   header {
     -webkit-box-orient: vertical;
