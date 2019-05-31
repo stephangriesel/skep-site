@@ -9,7 +9,7 @@ class Header extends Component {
         <div className="logo">
           <img src={logo} />
         </div>
-        <nav>
+        <nav className="menu">
           <ul>
             <li>SHOP</li>
             <li>TRACK ORDER</li>
@@ -25,6 +25,7 @@ class Header extends Component {
           </ul>
         </div>
         </nav>
+        
 
       </header>
     )
