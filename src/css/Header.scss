@@ -2,6 +2,9 @@ header {
   display: flex;
   flex-direction: row;
   justify-content:space-between;
+  .menu {
+    display: inline;
+  }
 }
 
 .logo-img {
@@ -61,6 +64,7 @@ nav {
 
   header {
     flex-direction: column;
+    
   }
 
   nav {
