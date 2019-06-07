@@ -19,6 +19,7 @@ class Header extends Component {
         <div className="logo">
           <img className="logo-img" src={logo} />
         </div>
+
         <div
           className="burger-menu"
           onClick={this.toggleMenuHandler}
@@ -29,19 +30,18 @@ class Header extends Component {
           this.state.showMenu === true ?
             <nav className="menu">
               <ul>
+                <li>WORK</li>
+                <li>OFFICE</li>
                 <li>SHOP</li>
-                <li>TRACK ORDER</li>
-                <li>ABOUT</li>
-                <li>FAQS</li>
                 <li>CONTACT</li>
               </ul>
-              <div className="social-icons">
+              {/* <div className="social-icons">
                 <ul>
                   <li><i className="fas fa-user"></i></li>
                   <li><i className="fas fa-search"></i></li>
                   <li><i className="fas fa-shopping-cart"></i></li>
                 </ul>
-              </div>
+              </div> */}
             </nav> : null
         }
 

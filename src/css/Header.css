@@ -2,6 +2,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 20px 0;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -9,6 +10,10 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+header .menu {
+  display: inline;
 }
 
 .logo-img {
@@ -19,7 +24,7 @@ header {
   display: none;
 }
 
-nav {
+nav.menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,7 +35,7 @@ nav {
           align-items: center;
 }
 
-nav ul {
+nav.menu ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,7 +44,7 @@ nav ul {
   padding: 0;
 }
 
-nav li {
+nav.menu li {
   margin: 0 10px;
 }
 

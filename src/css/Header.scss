@@ -1,5 +1,6 @@
 header {
   display: flex;
+  margin:20px 0;
   flex-direction: row;
   justify-content:space-between;
   .menu {
@@ -16,7 +17,7 @@ header {
 
 }
 
-nav {
+nav.menu {
   display:flex;
   align-content: center;
   align-items: center;

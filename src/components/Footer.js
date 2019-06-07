@@ -7,10 +7,10 @@ class Footer extends Component {
             <div className="footer">
             <div className="btm-menu">
                 <ul>
-                    <li>Search</li>
-                    <li>About Us</li>
-                    <li>FAQs</li>
-                    <li>Contact Us</li>
+                    <li>Work</li>
+                    <li>Office</li>
+                    <li>Shop</li>
+                    <li>Contact</li>
                 </ul>
             </div>
             <div className="btm-icons">
