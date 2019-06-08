@@ -1,15 +1,17 @@
 import React from 'react';
 import logo from '../logo.png';
 import '../css/Navbar.css';
+import ToggleButton from '../components/ToggleButton';
 
 const Navbar = props => (
     <header className="navbar">
         <nav className="navbar-navigation">
-            <div></div>
-            <div className="navbar-logo">
-                <a href="/"><img className="logo-img" src={logo} alt="logo" /></a>
+            <div>
+                <ToggleButton />
             </div>
-            <div className="spacer" />
+            <div className="navbar-logo">
+                <img className="logo-img" src={logo} alt="logo" />
+            </div>
             <div className="navbar-navigation-items">
                 <ul>
                     <li><a href="/">WORK</a></li>
