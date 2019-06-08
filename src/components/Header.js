@@ -35,13 +35,6 @@ class Header extends Component {
                 <li>SHOP</li>
                 <li>CONTACT</li>
               </ul>
-              {/* <div className="social-icons">
-                <ul>
-                  <li><i className="fas fa-user"></i></li>
-                  <li><i className="fas fa-search"></i></li>
-                  <li><i className="fas fa-shopping-cart"></i></li>
-                </ul>
-              </div> */}
             </nav> : null
         }
 
