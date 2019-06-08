@@ -7,7 +7,7 @@ const Navbar = props => (
     <header className="navbar">
         <nav className="navbar-navigation">
             <div>
-                <ToggleButton />
+                <ToggleButton click={props.menuClickHandler}/>
             </div>
             <div className="navbar-logo">
                 <img className="logo-img" src={logo} alt="logo" />

@@ -9,17 +9,26 @@ class Header extends Component {
     showMenu: false
   }
 
-  toggleMenuHandler = () => {
-    const doesShow = this.state.showMenu;
-    this.setState({ showMenu: !doesShow });
-  }
+  toggleClickHandler = () => {
+    this.setState((prevState) => {
+      return {showMenu: !prevState.showMenu};
+    });
+  };
 
   render() {
+    let showMenu;
+    let backDrop;
+
+    if(this.state.showMenu) {
+      showMenu = <MenuSide />;
+      backDrop = <Backdrop />;
+    }
+
     return (
       <div style={{ height: '100%' }}>
-        <Navbar />
-        <MenuSide />
-        <Backdrop />
+        <Navbar menuClickHandler={this.toggleClickHandler}/>
+        {showMenu}
+        {backDrop}
       </div>
     )
   }
