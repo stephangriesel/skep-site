@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import '../css/Header.css';
 import Navbar from '../components/Navbar';
 import MenuSide from '../components/MenuSide';
+import Backdrop from '../components/Backdrop';
 
 class Header extends Component {
   state = {
@@ -18,6 +19,7 @@ class Header extends Component {
       <div style={{ height: '100%' }}>
         <Navbar />
         <MenuSide />
+        <Backdrop />
       </div>
     )
   }
