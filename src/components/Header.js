@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import '../css/Header.css';
-import Navbar from '../components/Navbar'
+import Navbar from '../components/Navbar';
+import MenuSide from '../components/MenuSide';
 
 class Header extends Component {
   state = {
@@ -11,10 +12,13 @@ class Header extends Component {
     const doesShow = this.state.showMenu;
     this.setState({ showMenu: !doesShow });
   }
-  
+
   render() {
     return (
-      <Navbar />
+      <div style={{ height: '100%' }}>
+        <Navbar />
+        <MenuSide />
+      </div>
     )
   }
 }
@@ -27,7 +31,7 @@ class Header extends Component {
 //     const doesShow = this.state.showMenu;
 //     this.setState({ showMenu: !doesShow });
 //   }
-  
+
 //   render() {
 //     return (
 //       <header>

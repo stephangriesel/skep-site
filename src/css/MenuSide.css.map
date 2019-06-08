@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACP,MAAM,EAAC,IAAI;EACX,UAAU,EAAC,OAAO;EAClB,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,kBAAe;EACvC,QAAQ,EAAC,KAAK;EACd,GAAG,EAAC,CAAC;EACL,IAAI,EAAC,CAAC;EACN,KAAK,EAAC,KAAK;CACd",
+    "sources": [
+        "MenuSide.scss"
+    ],
+    "names": [],
+    "file": "MenuSide.css"
+}
