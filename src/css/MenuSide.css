@@ -1,12 +1,44 @@
 .menu-side {
   height: 100%;
-  background: #FFFFFF;
+  background: rgba(255, 255, 255, 0.9);
   -webkit-box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
           box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
   left: 0;
-  width: 400px;
+  width: 70%;
+  max-width: 300px;
   z-index: 200;
+}
+
+.menu-side ul {
+  height: 100%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menu-side li {
+  margin: 0.5rem 0;
+}
+
+.menu-side a {
+  color: #0a254d;
+  text-decoration: none;
+  font-size: 2.3rem;
+}
+
+.menu-side a:hover {
+  color: #a98f71;
+  text-decoration: none;
+  font-size: 2.3rem;
 }
 /*# sourceMappingURL=MenuSide.css.map */
