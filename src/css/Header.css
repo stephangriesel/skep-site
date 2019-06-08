@@ -20,10 +20,6 @@ header .menu {
   width: 100px;
 }
 
-.burger-img {
-  display: none;
-}
-
 nav.menu {
   display: -webkit-box;
   display: -ms-flexbox;
