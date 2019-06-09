@@ -15,13 +15,17 @@ class Header extends Component {
     });
   };
 
+  backdropClickHandler = () => {
+    this.setState({showMenu: false});
+  };
+
   render() {
     let showMenu;
     let backDrop;
 
     if(this.state.showMenu) {
       showMenu = <MenuSide />;
-      backDrop = <Backdrop />;
+      backDrop = <Backdrop click={this.backdropClickHandler}/>;
     }
 
     return (
