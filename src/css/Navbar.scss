@@ -1,7 +1,7 @@
 .navbar {
     width:100%;
-    background: rgb(124, 124, 124);
-    height:30vh;;
+    // background: rgb(124, 124, 124);
+    height:15vh;
     margin:0;
 }
 
@@ -20,6 +20,7 @@
 }
 
 .navbar-navigation-items {
+
     display:flex;
     width:100%;
     justify-content: flex-end;
@@ -34,16 +35,20 @@
     }
     a {
         text-decoration: none;
-        color:#fff;
+        color:#0a244d;;
     }
 
     a:hover, a:active {
         text-decoration: none;
-        color:#fff;
+        color:#a98f71;
     }
 }
 
 @media (max-width:768px) {
+    .navbar {
+        height:25vh;
+    }
+
     .navbar-navigation-items {
         display:none;
     }
@@ -54,6 +59,6 @@
         display:none;
     }
 
-    
+
 }
 

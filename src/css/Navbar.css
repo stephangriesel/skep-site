@@ -1,7 +1,6 @@
 .navbar {
   width: 100%;
-  background: #7c7c7c;
-  height: 30vh;
+  height: 15vh;
   margin: 0;
 }
 
@@ -47,15 +46,18 @@
 
 .navbar-navigation-items a {
   text-decoration: none;
-  color: #fff;
+  color: #0a244d;
 }
 
 .navbar-navigation-items a:hover, .navbar-navigation-items a:active {
   text-decoration: none;
-  color: #fff;
+  color: #a98f71;
 }
 
 @media (max-width: 768px) {
+  .navbar {
+    height: 25vh;
+  }
   .navbar-navigation-items {
     display: none;
   }
