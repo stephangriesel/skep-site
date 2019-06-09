@@ -35,3 +35,9 @@
 .menu-side.open {
     transform: translateX(0);
 }
+
+@media (min-width: 769px) {
+    .menu-side {
+        display:none;
+    }
+}

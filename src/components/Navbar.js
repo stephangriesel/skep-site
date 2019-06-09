@@ -6,7 +6,7 @@ import ToggleButton from '../components/ToggleButton';
 const Navbar = props => (
     <header className="navbar">
         <nav className="navbar-navigation">
-            <div>
+            <div className="navbar-toggle-button">
                 <ToggleButton click={props.menuClickHandler}/>
             </div>
             <div className="navbar-logo">
