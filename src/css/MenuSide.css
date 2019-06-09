@@ -9,6 +9,12 @@
   width: 70%;
   max-width: 300px;
   z-index: 200;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+  transition: -webkit-transform 0.4s ease-out;
+  transition: transform 0.4s ease-out;
+  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
 }
 
 .menu-side ul {
@@ -40,5 +46,10 @@
   color: #a98f71;
   text-decoration: none;
   font-size: 2.3rem;
+}
+
+.menu-side.open {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }
 /*# sourceMappingURL=MenuSide.css.map */

@@ -20,18 +20,17 @@ class Header extends Component {
   };
 
   render() {
-    let showMenu;
+
     let backDrop;
 
     if(this.state.showMenu) {
-      showMenu = <MenuSide />;
       backDrop = <Backdrop click={this.backdropClickHandler}/>;
     }
 
     return (
       <div style={{ height: '100%' }}>
         <Navbar menuClickHandler={this.toggleClickHandler}/>
-        {showMenu}
+        <MenuSide show={this.state.showMenu}/>
         {backDrop}
       </div>
     )
