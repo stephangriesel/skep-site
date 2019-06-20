@@ -1,7 +1,7 @@
 .navbar {
     width:100%;
     // background: rgb(124, 124, 124);
-    height:20vh;
+    height:100%;
     margin:0;
 }
 
@@ -46,7 +46,7 @@
 
 @media (max-width:768px) {
     .navbar {
-        height:38vh;
+        height:100%;
     }
 
     .navbar-navigation-items {

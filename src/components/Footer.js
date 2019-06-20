@@ -10,7 +10,7 @@ class Footer extends Component {
                     <li>Work</li>
                     <li>Office</li>
                     <li>Shop</li>
-                    <li>Contactnpm</li>
+                    <li>Contact</li>
                 </ul>
             </div>
             <div className="btm-icons">
