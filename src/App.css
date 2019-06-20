@@ -1,13 +1,8 @@
-body {
-  color: #0a244d;
-}
-
 .App {
   text-align: center;
 }
 
 .wrapper {
-  max-width: 1050px;
   margin: auto;
 }
 
@@ -40,27 +35,5 @@ body {
 
 .App-link {
   color: #61dafb;
-}
-
-@-webkit-keyframes App-logo-spin {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
 }
 /*# sourceMappingURL=App.css.map */

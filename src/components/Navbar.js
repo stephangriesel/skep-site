@@ -10,7 +10,9 @@ const Navbar = props => (
                 <ToggleButton click={props.menuClickHandler}/>
             </div>
             <div className="navbar-logo">
+                <a href="/">
                 <img className="logo-img" src={logo} alt="logo" />
+                </a>
             </div>
             <div className="navbar-navigation-items">
                 <ul>
