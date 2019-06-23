@@ -11,10 +11,12 @@ class Grid extends Component {
               <strong>Title</strong>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
             </div>
+            <a href="/projectone">
             <img
               src="https://loremflickr.com/320/240/bordercollie"
               alt="dogimage"
             />
+            </a>
           </div>
           <div className="card">
             <div className="info">
