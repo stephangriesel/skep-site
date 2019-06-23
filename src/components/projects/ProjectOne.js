@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import '../../css/ImageSlider.css';
+import ProjectOneSlide from './ProjectOneSlide';
+import leftArrow from '../LeftArrow';
+import RightArrow from '../RightArrow';
+import LeftArrow from '../LeftArrow';
 
 class ProjectOne extends Component {
     constructor(props) {
@@ -12,7 +16,10 @@ class ProjectOne extends Component {
     render() {
         return (
             <div className="image-slider">
-                <h1>Slider Goes here</h1>
+                <ProjectOneSlide />
+
+                <LeftArrow />
+                <RightArrow />
             </div>
 
 
