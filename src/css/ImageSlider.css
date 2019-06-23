@@ -1,3 +1,15 @@
+.card-slider-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card-slider-wrapper .card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
 .cards-slider {
   position: relative;
   max-width: 100%;

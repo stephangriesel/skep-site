@@ -1,3 +1,10 @@
+.card-slider-wrapper {
+    display:flex;
+    .card {
+        flex:1;
+    }
+}
+
 .cards-slider {
     position: relative;
     max-width:100%;
