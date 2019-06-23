@@ -28,12 +28,19 @@ class ProjectOne extends Component {
     }
 
     render() {
-        const { property } = this.state;
+        const { properties, property } = this.state;
         return (
             <div className="image-slider">
                 <div className="cards-slider">
                     <div className="card-slider-wrapper">
-                        <Card property={property} />
+                        {
+                            properties.map(property =>
+                                <Card
+                                    key={property._id}
+                                    property={property}
+                                />)
+                        }
+
                     </div>
                 </div>
                 <button

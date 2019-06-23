@@ -13,9 +13,9 @@ const Card = ({property}) => {
                     {address}
                 </p>
                 <ul className="features">
-                    <li className="icon-bed">{bedrooms} <span>bedrooms</span></li>
-                    <li className="icon-bath">{bathrooms} <span>bathrooms</span></li>
-                    <li className="icon-car">{carSpaces} <span>parking spots</span></li>
+                    <li><i class="fas fa-bed">{bedrooms} </i><span>bedrooms</span></li>
+                    <li className="icon-bath"><i class="fas fa-bath">{bathrooms}</i> <span>bathrooms</span></li>
+                    <li className="icon-car"><i class="fas fa-parking">{carSpaces}</i> <span>parking spots</span></li>
                 </ul>
             </div>
         </div>
