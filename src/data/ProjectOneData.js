@@ -1,7 +1,7 @@
 const data = {
     "properties": [
     {
-        "_id": "593e9297e17df20c4a237d42",
+        "_id": "593e9297e17df20c4a237d44",
         "index": 0,
         "price": 937180,
         "picture": "https://loremflickr.com/920/840/bordercollie",
@@ -14,7 +14,7 @@ const data = {
         "carSpaces": 2
     },
     {
-        "_id": "593e9297e17df20c4a237d42",
+        "_id": "593e9297e17df20c4a237d45",
         "index": 0,
         "price": 1234354,
         "picture": "https://loremflickr.com/920/840/airedaleterrier",
@@ -27,7 +27,7 @@ const data = {
         "carSpaces": 2
     },
     {
-        "_id": "593e9297e17df20c4a237d42",
+        "_id": "593e9297e17df20c4a237d46",
         "index": 0,
         "price": 1234354,
         "picture": "https://loremflickr.com/920/840/jackrussel",
@@ -40,7 +40,7 @@ const data = {
         "carSpaces": 2
     },
     {
-        "_id": "593e9297e17df20c4a237d42",
+        "_id": "593e9297e17df20c4a237d47",
         "index": 0,
         "price": 1234354,
         "picture": "https://loremflickr.com/920/840/rottweiler",
@@ -53,7 +53,7 @@ const data = {
         "carSpaces": 2
     },
     {
-        "_id": "593e9297e17df20c4a237d42",
+        "_id": "593e9297e17df20c4a237d48",
         "index": 0,
         "price": 1234354,
         "picture": "https://loremflickr.com/920/840/doberman",
@@ -66,7 +66,7 @@ const data = {
         "carSpaces": 2
     },
     {
-        "_id": "593e9297e17df20c4a237d42",
+        "_id": "593e9297e17df20c4a237d49",
         "index": 0,
         "price": 1234354,
         "picture": "https://loremflickr.com/920/840/spaniel",
