@@ -1,7 +1,13 @@
 import React from 'react'
 
-const ProjectOneSlide = () => {
-  return <div className="slide"></div>
+const ProjectOneSlide = ({ image }) => {
+  const styles = {
+    backgroundImage: `url(${image})`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: '50% 60%'
+  }
+  return <div className="slide" style={styles}></div>
 }
 
-export default ProjectOneSlide
+export default ProjectOneSlide;

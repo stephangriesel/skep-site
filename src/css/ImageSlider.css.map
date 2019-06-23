@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,aAAa,CAAC;EACV,KAAK,EAAC,KAAK;EACX,MAAM,EAAC,KAAK;CACf",
+    "mappings": "AAAA,AAAA,aAAa,CAAC;EACV,KAAK,EAAC,IAAI;EACV,MAAM,EAAC,KAAK;CACf",
     "sources": [
         "ImageSlider.scss"
     ],
