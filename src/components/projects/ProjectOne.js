@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../../css/ImageSlider.css';
-import Carousel from '../Carousel';
+import ProjectOneContent from './ProjectOneContent';
 
 class ProjectOne extends Component {
     constructor(props) {
@@ -13,7 +13,7 @@ class ProjectOne extends Component {
     render() {
         return (
             <div id="page-container">
-                <Carousel />
+                <ProjectOneContent />
             </div>
         )
     }

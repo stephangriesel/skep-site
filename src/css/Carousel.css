@@ -1,2 +1,29 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
+
+.slick-prev:before, .slick-next:before {
+    background: rgba(255, 255, 255,0.1) !important;
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color:#a98f71 !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+.slick-next:before {
+    content: '→';
+    position: absolute;
+    left: -240%;
+}
+
+.slide-image {
+    display:flex !important;
+    justify-content: center !important;
+    outline: none !important;
+} 
+
+.slide-image img {
+    width:80vh;
+    /* height:100vh;  */
+} 

@@ -1,21 +1,44 @@
 import React, { Component } from 'react'
-import '../css/Carousel.css';
+import '../../css/Carousel.css';
 import Slider from "react-slick";
 
-class Carousel extends Component {
+function NextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+        <div
+            className={className}
+            style={{ ...style, display: "block", background: "red" }}
+            onClick={onClick}
+        />
+    );
+}
+
+function PrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+        <div
+            className={className}
+            style={{ ...style, display: "block", background: "green" }}
+            onClick={onClick}
+        />
+    );
+}
+
+class ProjectOneContent extends Component {
     render() {
         var settings = {
-
-            dots: true,
+            // dots: true,
             infinite: true,
             speed: 500,
             slidesToShow: 1,
             slidesToScroll: 1,
-            arrows: true
+            // prevArrow: <PrevArrow />,
+            nextArrow: <NextArrow />
+            
         };
         return (
+
             <Slider {...settings}>
-                
                 <div className="slide-image">
                     <img src="https://loremflickr.com/320/240/bordercollie" alt="slideimage" />
                 </div>
@@ -35,9 +58,9 @@ class Carousel extends Component {
                     <h3>6</h3>
                 </div>
             </Slider>
-          
+
         )
     }
 }
 
-export default Carousel;
+export default ProjectOneContent;
