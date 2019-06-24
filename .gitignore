@@ -24,4 +24,6 @@ yarn-error.log*
 
 .env
 
-.netlify
+*/*.netlify/state.json
+
+notes.txt
