@@ -10,9 +10,9 @@ if(props.show) {
     <nav className={menuClasses}>
         <ul>
             <li><a href="/">WORK</a></li>
-            <li><a href="#office">OFFICE</a></li>
-            <li><a href="#shop">SHOP</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="/office">OFFICE</a></li>
+            <li><a href="/shop">SHOP</a></li>
+            <li><a href="/contact">CONTACT</a></li>
         </ul>
     </nav>)
 };
