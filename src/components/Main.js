@@ -4,6 +4,7 @@ import Grid from './Grid';
 import Office from './Office';
 import Shop from './Shop';
 import Contact from './Contact';
+import '../css/Main.css';
 
 import ProjectOne from './projects/ProjectOne';
 
@@ -18,6 +19,8 @@ const Main = () => (
         <Route path="/projectone" component={ProjectOne} />
     </Switch>
     </div>
+
+
 )
 
 export default Main;

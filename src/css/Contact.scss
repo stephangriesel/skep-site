@@ -1,0 +1,21 @@
+.center-wrapper {
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    max-width:1050px;
+    h1 {
+        color:#FFF;
+        text-transform: uppercase;        
+    }
+    .contact-contact {
+        background-image:url('https://loremflickr.com/920/840/phone');
+        background-size:cover;
+        justify-content: center;
+        align-items: center;
+        height:40vh;
+        font-size:1.8em;
+        width:100%;
+    }
+}
