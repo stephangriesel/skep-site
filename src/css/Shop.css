@@ -1,0 +1,13 @@
+.shop-card {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 0.5rem;
+  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  cursor: pointer;
+}
+
+.shop-card img {
+  width: 100%;
+}
+/*# sourceMappingURL=Shop.css.map */
