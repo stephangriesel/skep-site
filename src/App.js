@@ -8,11 +8,15 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App wrapper">
-      <Header />
-        <Main />
-      <Footer />
-    </div>
+      <div className="App wrapper" id="page-container">
+        <div id="content-wrap">
+          <Header />
+          <Main />
+          <div id="footer">
+            <Footer />
+          </div>
+        </div>
+      </div>
     )
   }
 }

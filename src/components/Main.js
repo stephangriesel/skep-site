@@ -8,6 +8,7 @@ import Contact from './Contact';
 import ProjectOne from './projects/ProjectOne';
 
 const Main = () => (
+    <div className="main-section">
     <Switch>
         <Route exact path="/" component={Grid} />
         <Route path="/office" component={Office} />
@@ -16,6 +17,7 @@ const Main = () => (
         {/* <<<< Project links >>>>> */}
         <Route path="/projectone" component={ProjectOne} />
     </Switch>
+    </div>
 )
 
 export default Main;
