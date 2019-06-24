@@ -6,12 +6,13 @@ class Carousel extends Component {
     render() {
         var settings = {
 
-            dots: true,
-            infinite: true,
+            dots: false,
+            // infinite: true,
             speed: 500,
             slidesToShow: 1,
             slidesToScroll: 1,
-            arrows: true
+            // arrows: true
+            
         };
         return (
             <Slider {...settings}>
