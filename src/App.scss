@@ -44,3 +44,19 @@
 .App-link {
   color: #61dafb;
 }
+
+@media (min-width: 769px) {
+  #page-container {
+    position: relative;
+    min-height: 100%;
+    margin-bottom:2em;
+  }
+}
+
+@media (max-width: 769px) {
+  #page-container {
+    position: relative;
+    min-height: auto;
+    margin-bottom:2em;
+  }
+}
