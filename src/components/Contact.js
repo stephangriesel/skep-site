@@ -12,17 +12,17 @@ class Contact extends Component {
                     <input type="hidden" name="form-name" value="contact" />
                     <p>
                         <label>
-                            Your Name: <input type="text" name="name" />
+                            <input placeholder="Please enter your name" type="text" name="name" />
                         </label>
                     </p>
                     <p>
                         <label>
-                            Your Email: <input type="email" name="email" />
+                            <input placeholder="Your email" type="email" name="email" />
                         </label>
                     </p>
                     <p>
                         <label>
-                            Message: <textarea name="message" />
+                            <textarea placeholder="Your message" name="message" />
                         </label>
                     </p>
                     <p>
