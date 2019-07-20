@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../css/Grid.css';
+import renaissanceCover from '../img/projects/renaissance/ranaissance-2013.cover.jpg';
 
 class Grid extends Component {
   render() {
@@ -7,80 +8,162 @@ class Grid extends Component {
       <React.Fragment>
         <main className="card">
           <div className="card">
-            <div className="info">
-              <strong>Title</strong>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
-            </div>
             <a href="/projectone">
-            <img
-              src="https://loremflickr.com/320/240/bordercollie"
-              alt="dogimage"
-            />
+              <img
+                src={renaissanceCover}
+                alt="Renaissance Project"
+              />
             </a>
-          </div>
-          <div className="card">
             <div className="info">
               <strong>Title</strong>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
+              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
-            <img src="https://loremflickr.com/320/240/jackrussel" alt="dogimage" />
           </div>
           <div className="card">
+            <a href="/projectone">
+              <img
+                src={renaissanceCover}
+                alt="Renaissance Project"
+              />
+            </a>
             <div className="info">
               <strong>Title</strong>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
+              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
-            <img src="https://loremflickr.com/320/240/poodle" alt="dogimage" />
           </div>
           <div className="card">
+            <a href="/projectone">
+              <img
+                src={renaissanceCover}
+                alt="Renaissance Project"
+              />
+            </a>
             <div className="info">
               <strong>Title</strong>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
+              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
-            <img src="https://loremflickr.com/320/240/greyhound" alt="dogimage" />
           </div>
           <div className="card">
+            <a href="/projectone">
+              <img
+                src={renaissanceCover}
+                alt="Renaissance Project"
+              />
+            </a>
             <div className="info">
               <strong>Title</strong>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
+              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
-            <img src="https://loremflickr.com/320/240/doberman" alt="dogimage" />
           </div>
           <div className="card">
+            <a href="/projectone">
+              <img
+                src={renaissanceCover}
+                alt="Renaissance Project"
+              />
+            </a>
             <div className="info">
               <strong>Title</strong>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
+              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
-            <img src="https://loremflickr.com/320/240/dalmation" alt="dogimage" />
           </div>
           <div className="card">
+            <a href="/projectone">
+              <img
+                src={renaissanceCover}
+                alt="Renaissance Project"
+              />
+            </a>
             <div className="info">
               <strong>Title</strong>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
+              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
-            <img src="https://loremflickr.com/320/240/sharpei" alt="dogimage" />
           </div>
           <div className="card">
+            <a href="/projectone">
+              <img
+                src={renaissanceCover}
+                alt="Renaissance Project"
+              />
+            </a>
             <div className="info">
               <strong>Title</strong>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
+              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
-            <img src="https://loremflickr.com/320/240/pug" alt="dogimage" />
           </div>
           <div className="card">
+            <a href="/projectone">
+              <img
+                src={renaissanceCover}
+                alt="Renaissance Project"
+              />
+            </a>
             <div className="info">
               <strong>Title</strong>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
+              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
-            <img src="https://loremflickr.com/320/240/frenchbulldog" alt="dogimage" />
           </div>
           <div className="card">
+            <a href="/projectone">
+              <img
+                src={renaissanceCover}
+                alt="Renaissance Project"
+              />
+            </a>
             <div className="info">
               <strong>Title</strong>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
+              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
-            <img src="https://loremflickr.com/320/240/germanshepherd" alt="dogimage" />
           </div>
+          <div className="card">
+            <a href="/projectone">
+              <img
+                src={renaissanceCover}
+                alt="Renaissance Project"
+              />
+            </a>
+            <div className="info">
+              <strong>Title</strong>
+              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+            </div>
+          </div>
+          <div className="card">
+            <a href="/projectone">
+              <img
+                src={renaissanceCover}
+                alt="Renaissance Project"
+              />
+            </a>
+            <div className="info">
+              <strong>Title</strong>
+              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+            </div>
+          </div>
+          <div className="card">
+            <a href="/projectone">
+              <img
+                src={renaissanceCover}
+                alt="Renaissance Project"
+              />
+            </a>
+            <div className="info">
+              <strong>Title</strong>
+              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+            </div>
+          </div>
+          <div className="card">
+            <a href="/projectone">
+              <img
+                src={renaissanceCover}
+                alt="Renaissance Project"
+              />
+            </a>
+            <div className="info">
+              <strong>Title</strong>
+              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+            </div>
+          </div>
+
         </main>
       </React.Fragment>
     )
