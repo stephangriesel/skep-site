@@ -2,7 +2,23 @@ import React, { Component } from 'react'
 import '../../css/Carousel.css';
 import Slider from "react-slick";
 import oneimage from '../../img/projects/renaissance/ranaissance-2013.cover.jpg';
-import twoimage from '../../img/projects/renaissance/renaissance-2013.2.jpg';
+import twoimage from '../../img/projects/renaissance/ranaissance-2013.2.jpg';
+import threeimage from '../../img/projects/renaissance/ranaissance-2013.4.jpg';
+import fourimage from '../../img/projects/renaissance/ranaissance-2013.4.jpg';
+import fiveimage from '../../img/projects/renaissance/ranaissance-2013.5.jpg';
+import siximage from '../../img/projects/renaissance/ranaissance-2013.6.jpg';
+import sevenimage from '../../img/projects/renaissance/ranaissance-2013.7.jpg';
+import eightimage from '../../img/projects/renaissance/ranaissance-2013.8.jpg';
+import nineimage from '../../img/projects/renaissance/ranaissance-2013.9.jpg';
+import tenimage from '../../img/projects/renaissance/ranaissance-2013.10.jpg';
+import elevenimage from '../../img/projects/renaissance/ranaissance-2013.11.jpg';
+import twelveimage from '../../img/projects/renaissance/ranaissance-2013.12.jpg';
+import thirteenimage from '../../img/projects/renaissance/ranaissance-2013.13.jpg';
+import fourteenimage from '../../img/projects/renaissance/ranaissance-2013.14.jpg';
+import fifteenimage from '../../img/projects/renaissance/ranaissance-2013.15.jpg';
+import sixteenimage from '../../img/projects/renaissance/ranaissance-2013.16.jpg';
+import seventeenimage from '../../img/projects/renaissance/ranaissance-2013.17.jpg';
+import eightteenimage from '../../img/projects/renaissance/ranaissance-2013.18.jpg';
 
 class ProjectOneContent extends Component {
     render() {
@@ -28,20 +44,54 @@ class ProjectOneContent extends Component {
                     <img src={twoimage} alt="slideimage" />
                 </div>
                 <div className="slide-image">
-                    <img src="https://loremflickr.com/920/640/germanshepherd" alt="slideimage" />
+                    <img src={threeimage} alt="slideimage" />
                 </div>
                 <div className="slide-image">
-                    <img src="https://loremflickr.com/920/640/pekinese" alt="slideimage" />
+                    <img src={fourimage} alt="slideimage" />
                 </div>
                 <div className="slide-image">
-                    <img src="https://loremflickr.com/920/640/rottweiler" alt="slideimage" />
+                    <img src={fiveimage} alt="slideimage" />
                 </div>
                 <div className="slide-image">
-                    <img src="https://loremflickr.com/920/640/staffie" alt="slideimage" />
+                    <img src={siximage} alt="slideimage" />
                 </div>
                 <div className="slide-image">
-                    <img src="https://loremflickr.com/920/640/bulldog" alt="slideimage" />
+                    <img src={sevenimage} alt="slideimage" />
                 </div>
+                <div className="slide-image">
+                    <img src={eightimage} alt="slideimage" />
+                </div>
+                <div className="slide-image">
+                    <img src={nineimage} alt="slideimage" />
+                </div>
+                <div className="slide-image">
+                    <img src={tenimage} alt="slideimage" />
+                </div>
+                <div className="slide-image">
+                    <img src={elevenimage} alt="slideimage" />
+                </div>
+                <div className="slide-image">
+                    <img src={twelveimage} alt="slideimage" />
+                </div>
+                <div className="slide-image">
+                    <img src={thirteenimage} alt="slideimage" />
+                </div>
+                <div className="slide-image">
+                    <img src={fourteenimage} alt="slideimage" />
+                </div>
+                <div className="slide-image">
+                    <img src={fifteenimage} alt="slideimage" />
+                </div>
+                <div className="slide-image">
+                    <img src={sixteenimage} alt="slideimage" />
+                </div>
+                <div className="slide-image">
+                    <img src={seventeenimage} alt="slideimage" />
+                </div>
+                <div className="slide-image">
+                    <img src={eightteenimage} alt="slideimage" />
+                </div>
+
 
             </Slider>
 
