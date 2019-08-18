@@ -1,26 +1,27 @@
 import React, { Component } from 'react'
 import '../../css/Carousel.css';
 import Slider from "react-slick";
-import oneimage from '../../img/projects/project1-renaissance/ranaissance-2013.cover.jpg';
-import twoimage from '../../img/projects/project1-renaissance/ranaissance-2013.2.jpg';
-import threeimage from '../../img/projects/project1-renaissance/ranaissance-2013.4.jpg';
-import fourimage from '../../img/projects/project1-renaissance/ranaissance-2013.4.jpg';
-import fiveimage from '../../img/projects/project1-renaissance/ranaissance-2013.5.jpg';
-import siximage from '../../img/projects/project1-renaissance/ranaissance-2013.6.jpg';
-import sevenimage from '../../img/projects/project1-renaissance/ranaissance-2013.7.jpg';
-import eightimage from '../../img/projects/project1-renaissance/ranaissance-2013.8.jpg';
-import nineimage from '../../img/projects/project1-renaissance/ranaissance-2013.9.jpg';
-import tenimage from '../../img/projects/project1-renaissance/ranaissance-2013.10.jpg';
-import elevenimage from '../../img/projects/project1-renaissance/ranaissance-2013.11.jpg';
-import twelveimage from '../../img/projects/project1-renaissance/ranaissance-2013.12.jpg';
-import thirteenimage from '../../img/projects/project1-renaissance/ranaissance-2013.13.jpg';
-import fourteenimage from '../../img/projects/project1-renaissance/ranaissance-2013.14.jpg';
-import fifteenimage from '../../img/projects/project1-renaissance/ranaissance-2013.15.jpg';
-import sixteenimage from '../../img/projects/project1-renaissance/ranaissance-2013.16.jpg';
-import seventeenimage from '../../img/projects/project1-renaissance/ranaissance-2013.17.jpg';
-import eightteenimage from '../../img/projects/project1-renaissance/ranaissance-2013.18.jpg';
+import oneimage from '../../img/projects/project4-dorpstraatboutiquehotel/dorpstraatboutiquehotel-2015-cover.jpg';
+import twoimage from '../../img/projects/project4-dorpstraatboutiquehotel/dorpstraatboutiquehotel-2015-2.jpg';
+import threeimage from '../../img/projects/project4-dorpstraatboutiquehotel/dorpstraatboutiquehotel-2015-4.jpg';
+import fourimage from '../../img/projects/project4-dorpstraatboutiquehotel/dorpstraatboutiquehotel-2015-4.jpg';
+import fiveimage from '../../img/projects/project4-dorpstraatboutiquehotel/dorpstraatboutiquehotel-2015-5.jpg';
+import siximage from '../../img/projects/project4-dorpstraatboutiquehotel/dorpstraatboutiquehotel-2015-6.jpg';
+import sevenimage from '../../img/projects/project4-dorpstraatboutiquehotel/dorpstraatboutiquehotel-2015-7.jpg';
+import eightimage from '../../img/projects/project4-dorpstraatboutiquehotel/dorpstraatboutiquehotel-2015-8.jpg';
+import nineimage from '../../img/projects/project4-dorpstraatboutiquehotel/dorpstraatboutiquehotel-2015-9.jpg';
+import tenimage from '../../img/projects/project4-dorpstraatboutiquehotel/dorpstraatboutiquehotel-2015-10.jpg';
+import elevenimage from '../../img/projects/project4-dorpstraatboutiquehotel/dorpstraatboutiquehotel-2015-11.jpg';
+import twelveimage from '../../img/projects/project4-dorpstraatboutiquehotel/dorpstraatboutiquehotel-2015-12.jpg';
+import thirteenimage from '../../img/projects/project4-dorpstraatboutiquehotel/dorpstraatboutiquehotel-2015-13.jpg';
+import fourteenimage from '../../img/projects/project4-dorpstraatboutiquehotel/dorpstraatboutiquehotel-2015-14.jpg';
+import fifteenimage from '../../img/projects/project4-dorpstraatboutiquehotel/dorpstraatboutiquehotel-2015-15.jpg';
+import sixteenimage from '../../img/projects/project4-dorpstraatboutiquehotel/dorpstraatboutiquehotel-2015-16.jpg';
+// import seventeenimage from '../../img/projects/project3-43onplein/fourthythreeonplein-2018-17.jpg';
+// import eightteenimage from '../../img/projects/project3-43onplein/fourthythreeonplein-2018-18.jpg';
+// import nineteenimage from '../../img/projects/project3-43onplein/fourthythreeonplein-2018-1.jpg';
 
-class ProjectOneContent extends Component {
+class ProjectFourContent extends Component {
     render() {
         var settings = {
             dots: true,
@@ -85,12 +86,15 @@ class ProjectOneContent extends Component {
                 <div className="slide-image">
                     <img src={sixteenimage} alt="slideimage" />
                 </div>
-                <div className="slide-image">
+                {/* <div className="slide-image">
                     <img src={seventeenimage} alt="slideimage" />
                 </div>
                 <div className="slide-image">
                     <img src={eightteenimage} alt="slideimage" />
                 </div>
+                <div className="slide-image">
+                    <img src={nineteenimage} alt="slideimage" />
+                </div> */}
 
 
             </Slider>
@@ -99,4 +103,4 @@ class ProjectOneContent extends Component {
     }
 }
 
-export default ProjectOneContent;
+export default ProjectFourContent;

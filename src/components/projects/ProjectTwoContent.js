@@ -1,26 +1,27 @@
 import React, { Component } from 'react'
 import '../../css/Carousel.css';
 import Slider from "react-slick";
-import oneimage from '../../img/projects/project1-renaissance/ranaissance-2013.cover.jpg';
-import twoimage from '../../img/projects/project1-renaissance/ranaissance-2013.2.jpg';
-import threeimage from '../../img/projects/project1-renaissance/ranaissance-2013.4.jpg';
-import fourimage from '../../img/projects/project1-renaissance/ranaissance-2013.4.jpg';
-import fiveimage from '../../img/projects/project1-renaissance/ranaissance-2013.5.jpg';
-import siximage from '../../img/projects/project1-renaissance/ranaissance-2013.6.jpg';
-import sevenimage from '../../img/projects/project1-renaissance/ranaissance-2013.7.jpg';
-import eightimage from '../../img/projects/project1-renaissance/ranaissance-2013.8.jpg';
-import nineimage from '../../img/projects/project1-renaissance/ranaissance-2013.9.jpg';
-import tenimage from '../../img/projects/project1-renaissance/ranaissance-2013.10.jpg';
-import elevenimage from '../../img/projects/project1-renaissance/ranaissance-2013.11.jpg';
-import twelveimage from '../../img/projects/project1-renaissance/ranaissance-2013.12.jpg';
-import thirteenimage from '../../img/projects/project1-renaissance/ranaissance-2013.13.jpg';
-import fourteenimage from '../../img/projects/project1-renaissance/ranaissance-2013.14.jpg';
-import fifteenimage from '../../img/projects/project1-renaissance/ranaissance-2013.15.jpg';
-import sixteenimage from '../../img/projects/project1-renaissance/ranaissance-2013.16.jpg';
-import seventeenimage from '../../img/projects/project1-renaissance/ranaissance-2013.17.jpg';
-import eightteenimage from '../../img/projects/project1-renaissance/ranaissance-2013.18.jpg';
+import oneimage from '../../img/projects/project2-oubaai/oubaai-2018-cover.jpg';
+import twoimage from '../../img/projects/project2-oubaai/oubaai-2018-2.jpg';
+import threeimage from '../../img/projects/project2-oubaai/oubaai-2018-4.jpg';
+import fourimage from '../../img/projects/project2-oubaai/oubaai-2018-4.jpg';
+import fiveimage from '../../img/projects/project2-oubaai/oubaai-2018-5.jpg';
+import siximage from '../../img/projects/project2-oubaai/oubaai-2018-6.jpg';
+import sevenimage from '../../img/projects/project2-oubaai/oubaai-2018-7.jpg';
+import eightimage from '../../img/projects/project2-oubaai/oubaai-2018-8.jpg';
+import nineimage from '../../img/projects/project2-oubaai/oubaai-2018-9.jpg';
+import tenimage from '../../img/projects/project2-oubaai/oubaai-2018-10.jpg';
+import elevenimage from '../../img/projects/project2-oubaai/oubaai-2018-11.jpg';
+import twelveimage from '../../img/projects/project2-oubaai/oubaai-2018-12.jpg';
+import thirteenimage from '../../img/projects/project2-oubaai/oubaai-2018-13.jpg';
+import fourteenimage from '../../img/projects/project2-oubaai/oubaai-2018-14.jpg';
+import fifteenimage from '../../img/projects/project2-oubaai/oubaai-2018-15.jpg';
+import sixteenimage from '../../img/projects/project2-oubaai/oubaai-2018-16.jpg';
+import seventeenimage from '../../img/projects/project2-oubaai/oubaai-2018-17.jpg';
+import eightteenimage from '../../img/projects/project2-oubaai/oubaai-2018-18.jpg';
+import nineteenimage from '../../img/projects/project2-oubaai/oubaai-2018-1.jpg';
 
-class ProjectOneContent extends Component {
+class ProjectTwoContent extends Component {
     render() {
         var settings = {
             dots: true,
@@ -91,6 +92,9 @@ class ProjectOneContent extends Component {
                 <div className="slide-image">
                     <img src={eightteenimage} alt="slideimage" />
                 </div>
+                <div className="slide-image">
+                    <img src={nineteenimage} alt="slideimage" />
+                </div>
 
 
             </Slider>
@@ -99,4 +103,4 @@ class ProjectOneContent extends Component {
     }
 }
 
-export default ProjectOneContent;
+export default ProjectTwoContent;

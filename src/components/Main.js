@@ -7,17 +7,24 @@ import Contact from './Contact';
 import '../css/Main.css';
 
 import ProjectOne from './projects/ProjectOne';
+import ProjectTwo from './projects/ProjectTwo';
+import ProjectThree from './projects/ProjectThree';
+import ProjectFour from './projects/ProjectFour';
 
 const Main = () => (
     <div className="main-section">
-    <Switch>
-        <Route exact path="/" component={Grid} />
-        <Route path="/office" component={Office} />
-        <Route path="/shop" component={Shop} />
-        <Route path="/contact" component={Contact} />
-        {/* <<<< Project links >>>>> */}
-        <Route path="/projectone" component={ProjectOne} />
-    </Switch>
+        <Switch>
+            <Route exact path="/" component={Grid} />
+            <Route path="/office" component={Office} />
+            <Route path="/shop" component={Shop} />
+            <Route path="/contact" component={Contact} />
+
+            {/* <<<< Project links >>>>> */}
+            <Route path="/projectone" component={ProjectOne} />
+            <Route path="/projecttwo" component={ProjectTwo} />
+            <Route path="/projectthree" component={ProjectThree} />
+            <Route path="/projectfour" component={ProjectFour} />
+        </Switch>
     </div>
 
 
