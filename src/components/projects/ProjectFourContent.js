@@ -17,9 +17,6 @@ import thirteenimage from '../../img/projects/project4-dorpstraatboutiquehotel/d
 import fourteenimage from '../../img/projects/project4-dorpstraatboutiquehotel/dorpstraatboutiquehotel-2015-14.jpg';
 import fifteenimage from '../../img/projects/project4-dorpstraatboutiquehotel/dorpstraatboutiquehotel-2015-15.jpg';
 import sixteenimage from '../../img/projects/project4-dorpstraatboutiquehotel/dorpstraatboutiquehotel-2015-16.jpg';
-// import seventeenimage from '../../img/projects/project3-43onplein/fourthythreeonplein-2018-17.jpg';
-// import eightteenimage from '../../img/projects/project3-43onplein/fourthythreeonplein-2018-18.jpg';
-// import nineteenimage from '../../img/projects/project3-43onplein/fourthythreeonplein-2018-1.jpg';
 
 class ProjectFourContent extends Component {
     render() {
@@ -86,17 +83,6 @@ class ProjectFourContent extends Component {
                 <div className="slide-image">
                     <img src={sixteenimage} alt="slideimage" />
                 </div>
-                {/* <div className="slide-image">
-                    <img src={seventeenimage} alt="slideimage" />
-                </div>
-                <div className="slide-image">
-                    <img src={eightteenimage} alt="slideimage" />
-                </div>
-                <div className="slide-image">
-                    <img src={nineteenimage} alt="slideimage" />
-                </div> */}
-
-
             </Slider>
 
         )

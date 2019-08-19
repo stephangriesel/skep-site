@@ -95,8 +95,6 @@ class ProjectTwoContent extends Component {
                 <div className="slide-image">
                     <img src={nineteenimage} alt="slideimage" />
                 </div>
-
-
             </Slider>
 
         )

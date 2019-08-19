@@ -63,7 +63,7 @@ class Grid extends Component {
             </div>
           </div>
           <div className="card">
-            <a href="/projectone">
+            <a href="/projectfive">
               <img
                 src={psgstellenboschCover}
                 alt="Renaissance Project"
