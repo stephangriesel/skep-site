@@ -5,7 +5,7 @@ import oubaaiCover from '../img/projects/project2-oubaai/oubaai-2018-cover.jpg';
 import fourtythreeonpleinCover from '../img/projects/project3-43onplein/fourthythreeonplein-2017-cover.jpg';
 import dorpstraatboutiquehotelCover from '../img/projects/project4-dorpstraatboutiquehotel/dorpstraatboutiquehotel-2015-cover.jpg';
 import psgstellenboschCover from '../img/projects/project5-psgstellenbosch/psgstellenbosch-2015-cover.jpg';
-import rootstockCover from '../img/projects/project6-rootstock/rootstockstellenbosch-2015-cover.jpg';
+import rootstockCover from '../img/projects/project6-rootstockstellenbosch/rootstockstellenbosch-2015-cover.jpg';
 import singletrackspinningstudioCover from '../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-cover.jpg';
 import ellermanhouseCover from '../img/projects/project8-ellermanhouse/ellermanhouse-2018-cover.jpg';
 
@@ -75,7 +75,7 @@ class Grid extends Component {
             </div>
           </div>
           <div className="card">
-            <a href="/projectone">
+            <a href="/projectsix">
               <img
                 src={rootstockCover}
                 alt="Renaissance Project"
