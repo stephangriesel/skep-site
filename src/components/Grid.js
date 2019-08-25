@@ -27,7 +27,7 @@ class Grid extends Component {
             </div>
           </div>
           <div className="card">
-            <a href="/projectwo">
+            <a href="/projecttwo">
               <img
                 src={oubaaiCover}
                 alt="Oubaai Project"
@@ -87,7 +87,7 @@ class Grid extends Component {
             </div>
           </div>
           <div className="card">
-            <a href="/projectone">
+            <a href="/projectseven">
               <img
                 src={singletrackspinningstudioCover}
                 alt="Renaissance Project"
@@ -99,7 +99,7 @@ class Grid extends Component {
             </div>
           </div>
           <div className="card">
-            <a href="/projectone">
+            <a href="/projecteight">
               <img
                 src={ellermanhouseCover}
                 alt="Renaissance Project"

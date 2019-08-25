@@ -1,34 +1,34 @@
 import React, { Component } from 'react'
 import '../../css/Carousel.css';
 import Slider from "react-slick";
-import oneimage from '../../img/projects/project2-oubaai/oubaai-2018-cover.jpg';
-import twoimage from '../../img/projects/project2-oubaai/oubaai-2018-2.jpg';
-import threeimage from '../../img/projects/project2-oubaai/oubaai-2018-4.jpg';
-import fourimage from '../../img/projects/project2-oubaai/oubaai-2018-4.jpg';
-import fiveimage from '../../img/projects/project2-oubaai/oubaai-2018-5.jpg';
-import siximage from '../../img/projects/project2-oubaai/oubaai-2018-6.jpg';
-import eightimage from '../../img/projects/project2-oubaai/oubaai-2018-8.jpg';
-import nineimage from '../../img/projects/project2-oubaai/oubaai-2018-9.jpg';
-import tenimage from '../../img/projects/project2-oubaai/oubaai-2018-10.jpg';
-import elevenimage from '../../img/projects/project2-oubaai/oubaai-2018-11.jpg';
-import twelveimage from '../../img/projects/project2-oubaai/oubaai-2018-12.jpg';
-import thirteenimage from '../../img/projects/project2-oubaai/oubaai-2018-13.jpg';
-import fourteenimage from '../../img/projects/project2-oubaai/oubaai-2018-14.jpg';
-import fivteenimage from '../../img/projects/project2-oubaai/oubaai-2018-15.jpg';
-import sixteenimage from '../../img/projects/project2-oubaai/oubaai-2018-16.jpg';
-import seventeenimage from '../../img/projects/project2-oubaai/oubaai-2018-17.jpg';
-import eighteenimage from '../../img/projects/project2-oubaai/oubaai-2018-18.jpg';
-import nineteenimage from '../../img/projects/project2-oubaai/oubaai-2018-19.jpg';
-import twentyimage from '../../img/projects/project2-oubaai/oubaai-2018-20.jpg';
-import twentyoneimage from '../../img/projects/project2-oubaai/oubaai-2018-21.jpg';
-import twentytwoimage from '../../img/projects/project2-oubaai/oubaai-2018-22.jpg';
-import twentythreeimage from '../../img/projects/project2-oubaai/oubaai-2018-23.jpg';
-import twentyfourimage from '../../img/projects/project2-oubaai/oubaai-2018-24.jpg';
-import twentyfiveimage from '../../img/projects/project2-oubaai/oubaai-2018-25.jpg';
-import twentysiximage from '../../img/projects/project2-oubaai/oubaai-2018-26.jpg';
-import twentysevenimage from '../../img/projects/project2-oubaai/oubaai-2018-27.jpg';
+import oneimage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-cover.jpg';
+import twoimage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-2.jpg';
+import threeimage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-4.jpg';
+import fourimage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-4.jpg';
+import fiveimage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-5.jpg';
+import siximage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-6.jpg';
+// import eightimage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-8.jpg';
+import nineimage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-9.jpg';
+import tenimage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-10.jpg';
+import elevenimage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-11.jpg';
+import twelveimage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-12.jpg';
+import thirteenimage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-13.jpg';
+import fourteenimage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-14.jpg';
+import fivteenimage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-15.jpg';
+import sixteenimage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-16.jpg';
+import seventeenimage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-17.jpg';
+import eighteenimage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-18.jpg';
+import nineteenimage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-19.jpg';
+import twentyimage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-20.jpg';
+import twentyoneimage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-21.jpg';
+import twentytwoimage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-22.jpg';
+import twentythreeimage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-23.jpg';
+import twentyfourimage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-24.jpg';
+import twentyfiveimage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-25.jpg';
+import twentysiximage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-26.jpg';
+import twentysevenimage from '../../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-27.jpg';
 
-class ProjectTwoContent extends Component {
+class ProjectSevenContent extends Component {
     render() {
         var settings = {
             dots: true,
@@ -63,9 +63,9 @@ class ProjectTwoContent extends Component {
                 <div className="slide-image">
                     <img src={siximage} alt="slideimage" />
                 </div>
-                <div className="slide-image">
+                {/* <div className="slide-image">
                     <img src={eightimage} alt="slideimage" />
-                </div>
+                </div> */}
                 <div className="slide-image">
                     <img src={nineimage} alt="slideimage" />
                 </div>
@@ -132,4 +132,4 @@ class ProjectTwoContent extends Component {
     }
 }
 
-export default ProjectTwoContent;
+export default ProjectSevenContent;
