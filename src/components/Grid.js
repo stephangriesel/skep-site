@@ -8,6 +8,7 @@ import psgstellenboschCover from '../img/projects/project5-psgstellenbosch/psgst
 import rootstockCover from '../img/projects/project6-rootstockstellenbosch/rootstockstellenbosch-2015-cover.jpg';
 import singletrackspinningstudioCover from '../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-cover.jpg';
 import ellermanhouseCover from '../img/projects/project8-ellermanhouse/ellermanhouse-2018-cover.jpg';
+import lecoetzenburgCover from '../img/projects/project9-lecoetzenburg/lecoetzenburg-2019-cover.jpg';
 
 class Grid extends Component {
   render() {
@@ -111,10 +112,10 @@ class Grid extends Component {
             </div>
           </div>
           <div className="card">
-            <a href="/projectone">
+            <a href="/projectnine">
               <img
-                src={renaissanceCover}
-                alt="Renaissance Project"
+                src={lecoetzenburgCover}
+                alt="Le Coetzenburg Project"
               />
             </a>
             <div className="info">
