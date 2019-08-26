@@ -9,6 +9,9 @@ import rootstockCover from '../img/projects/project6-rootstockstellenbosch/roots
 import singletrackspinningstudioCover from '../img/projects/project7-singletrackspinningstudio/singletrackspinningstudio-2018-cover.jpg';
 import ellermanhouseCover from '../img/projects/project8-ellermanhouse/ellermanhouse-2018-cover.jpg';
 import lecoetzenburgCover from '../img/projects/project9-lecoetzenburg/lecoetzenburg-2019-cover.jpg';
+// import lecoetzenburgCover from '../img/projects/project9-lecoetzenburg/lecoetzenburg-2019-cover.jpg';
+// import lecoetzenburgCover from '../img/projects/project9-lecoetzenburg/lecoetzenburg-2019-cover.jpg';
+import banhoeklodgeCover from '../img/projects/project12-banhoeklodge/banhoeklodge-2018-cover.jpg';
 
 class Grid extends Component {
   render() {
@@ -124,7 +127,7 @@ class Grid extends Component {
             </div>
           </div>
           <div className="card">
-            <a href="/projectone">
+            <a href="/projectten">
               <img
                 src={renaissanceCover}
                 alt="Renaissance Project"
@@ -136,7 +139,7 @@ class Grid extends Component {
             </div>
           </div>
           <div className="card">
-            <a href="/projectone">
+            <a href="/projecteleven">
               <img
                 src={renaissanceCover}
                 alt="Renaissance Project"
@@ -148,10 +151,10 @@ class Grid extends Component {
             </div>
           </div>
           <div className="card">
-            <a href="/projectone">
+            <a href="/projecttwelve">
               <img
-                src={renaissanceCover}
-                alt="Renaissance Project"
+                src={banhoeklodgeCover}
+                alt="Banhoek Lodge"
               />
             </a>
             <div className="info">
