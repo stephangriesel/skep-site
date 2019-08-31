@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../css/Carousel.css';
 import Slider from "react-slick";
 import coverimage from '../../img/projects/project15-fintec/fintec-2017-cover.jpg';
-import oneimage from '../../img/projects/project15-fintec/fintec-2017-cover.jpg';
+import oneimage from '../../img/projects/project15-fintec/fintec-2017-1.jpg';
 import twoimage from '../../img/projects/project15-fintec/fintec-2017-2.jpg';
 import threeimage from '../../img/projects/project15-fintec/fintec-2017-4.jpg';
 import fourimage from '../../img/projects/project15-fintec/fintec-2017-4.jpg';

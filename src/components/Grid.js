@@ -15,6 +15,7 @@ import banhoeklodgeCover from '../img/projects/project12-banhoeklodge/banhoeklod
 import bakhovenhouseCover from '../img/projects/project13-bakhovenresidence/bakhovenhouse-2016-cover.jpg';
 import chilloesCover from '../img/projects/project14-chilloes/chilloes-2016-cover.jpg';
 import fintecCover from '../img/projects/project15-fintec/fintec-2017-cover.jpg';
+import fairtreeCover from '../img/projects/project16-fairtree/fairtree-2015-cover.jpg';
 
 class Grid extends Component {
   render() {
@@ -193,6 +194,18 @@ class Grid extends Component {
             <a href="/projectfifteen">
               <img
                 src={fintecCover}
+                alt="Chilloes"
+              />
+            </a>
+            <div className="info">
+              <strong>Title</strong>
+              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+            </div>
+          </div>
+          <div className="card">
+            <a href="/projectsixteen">
+              <img
+                src={fairtreeCover}
                 alt="Chilloes"
               />
             </a>
