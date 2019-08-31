@@ -13,6 +13,7 @@ import lecoetzenburgCover from '../img/projects/project9-lecoetzenburg/lecoetzen
 // import lecoetzenburgCover from '../img/projects/project9-lecoetzenburg/lecoetzenburg-2019-cover.jpg';
 import banhoeklodgeCover from '../img/projects/project12-banhoeklodge/banhoeklodge-2018-cover.jpg';
 import bakhovenhouseCover from '../img/projects/project13-bakhovenresidence/bakhovenhouse-2016-cover.jpg';
+import chilloesCover from '../img/projects/project14-chilloes/chilloes-2016-cover.jpg';
 
 class Grid extends Component {
   render() {
@@ -168,6 +169,18 @@ class Grid extends Component {
               <img
                 src={bakhovenhouseCover}
                 alt="Bakhoven House"
+              />
+            </a>
+            <div className="info">
+              <strong>Title</strong>
+              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+            </div>
+          </div>
+          <div className="card">
+            <a href="/projectfourteen">
+              <img
+                src={chilloesCover}
+                alt="Chilloes"
               />
             </a>
             <div className="info">
