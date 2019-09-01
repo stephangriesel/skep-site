@@ -18,6 +18,8 @@ import fintecCover from '../img/projects/project15-fintec/fintec-2017-cover.jpg'
 import fairtreeCover from '../img/projects/project16-fairtree/fairtree-2015-cover.jpg';
 import houseboschCover from '../img/projects/project17-housebosch/housebosch-2017-cover.jpg';
 import sanlameerCover from '../img/projects/project18-sanlameer/sanlameer-2015-cover.jpg';
+import houseknoesenCover from '../img/projects/project19-houseknoesen/huisknoesen-2016-cover.jpg';
+import imperialmanagedCover from '../img/projects/project20-imperialmanaged/imperialmanaged-2014-cover.jpg';
 
 class Grid extends Component {
   render() {
@@ -232,6 +234,30 @@ class Grid extends Component {
             <a href="/projecteighteen">
               <img
                 src={sanlameerCover}
+                alt="House Bosch"
+              />
+            </a>
+            <div className="info">
+              <strong>Title</strong>
+              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+            </div>
+          </div>
+          <div className="card">
+            <a href="/projectnineteen">
+              <img
+                src={houseknoesenCover}
+                alt="House Bosch"
+              />
+            </a>
+            <div className="info">
+              <strong>Title</strong>
+              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+            </div>
+          </div>
+          <div className="card">
+            <a href="/projecttwenty">
+              <img
+                src={imperialmanagedCover}
                 alt="House Bosch"
               />
             </a>
