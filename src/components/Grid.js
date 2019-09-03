@@ -23,6 +23,7 @@ import imperialmanagedCover from '../img/projects/project20-imperialmanaged/impe
 import jamessedgwickdistilleryCover from '../img/projects/project21-jamessedgwickdistillery/jamessedgwickdistillery-2016-cover.jpg';
 import moerbyCover from '../img/projects/project22-moerby/moerby-2016-cover.jpg';
 import oakhillchurchCover from '../img/projects/project23-oakhillchurch/oakhillchurch-2015-cover.jpg';
+import psgjhbCover from '../img/projects/project24-psgcapitaljhb/psgjohannesburg-2015-cover.jpg';
 
 class Grid extends Component {
   render() {
@@ -297,6 +298,18 @@ class Grid extends Component {
             <a href="/projecttwentythree">
               <img
                 src={oakhillchurchCover}
+                alt="House Bosch"
+              />
+            </a>
+            <div className="info">
+              <strong>Title</strong>
+              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+            </div>
+          </div>
+          <div className="card">
+            <a href="/projecttwentyfour">
+              <img
+                src={psgjhbCover}
                 alt="House Bosch"
               />
             </a>
