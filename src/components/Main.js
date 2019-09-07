@@ -31,6 +31,11 @@ import ProjectTwentytwo from './projects/ProjectTwentytwo';
 import ProjectTwentythree from './projects/ProjectTwentythree';
 import ProjectTwentyfour from './projects/ProjectTwentyfour';
 import ProjectTwentyfive from './projects/ProjectTwentyfive';
+import ProjectTwentysix from './projects/ProjectTwentysix';
+import ProjectTwentyseven from './projects/ProjectTwentyseven';
+// import ProjectTwentyeight from './projects/ProjectTwentyeight';
+// import ProjectTwentynine from './projects/ProjectTwentynine';
+// import ProjectThirty from './projects/ProjectThirty';
 
 const Main = () => (
     <div className="main-section">
@@ -66,6 +71,11 @@ const Main = () => (
             <Route path="/projecttwentythree" component={ProjectTwentythree} />
             <Route path="/projecttwentyfour" component={ProjectTwentyfour} />
             <Route path="/projecttwentyfive" component={ProjectTwentyfive} />
+            <Route path="/projecttwentysix" component={ProjectTwentysix} />
+            <Route path="/projecttwentyseven" component={ProjectTwentyseven} />
+            {/* <Route path="/projecttwentyeight" component={ProjectTwentyeight} /> */}
+            {/* <Route path="/projecttwentynine" component={ProjectTwentynine} /> */}
+            {/* <Route path="/projectthirty" component={ProjectThirty} /> */}
         </Switch>
     </div>
 

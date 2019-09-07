@@ -25,6 +25,8 @@ import moerbyCover from '../img/projects/project22-moerby/moerby-2016-cover.jpg'
 import oakhillchurchCover from '../img/projects/project23-oakhillchurch/oakhillchurch-2015-cover.jpg';
 import psgjhbCover from '../img/projects/project24-psgcapitaljhb/psgjohannesburg-2015-cover.jpg';
 import synexusclinicCover from '../img/projects/project25-synexusclinic/synexusclinic-2016-cover.jpg';
+import travelstartCover from '../img/projects/project26-travelstart/travelstart-2015-cover.jpg';
+import zederCover from '../img/projects/project27-zeder/zeder-2017-cover.jpg';
 
 class Grid extends Component {
   render() {
@@ -324,6 +326,30 @@ class Grid extends Component {
               <img
                 src={synexusclinicCover}
                 alt="Synexus Clinic"
+              />
+            </a>
+            <div className="info">
+              <strong>Title</strong>
+              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+            </div>
+          </div>
+          <div className="card">
+            <a href="/projecttwentysix">
+              <img
+                src={travelstartCover}
+                alt="Travelstart"
+              />
+            </a>
+            <div className="info">
+              <strong>Title</strong>
+              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+            </div>
+          </div>
+          <div className="card">
+            <a href="/projecttwentyseven">
+              <img
+                src={zederCover}
+                alt="Zeder"
               />
             </a>
             <div className="info">
