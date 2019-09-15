@@ -7,6 +7,46 @@ import christi from '../img/office/christi.jpg';
 import gunther from '../img/office/gunther.jpg';
 import kulsum from '../img/office/kulsum.jpg';
 import lumari from '../img/office/lumari.jpg';
+import aaf from '../img/office/clientlogos/aaf.jpg';
+import amc from '../img/office/clientlogos/amc.png';
+import arcinvestments from '../img/office/clientlogos/arcinvestments.png';
+import banhoek from '../img/office/clientlogos/banhoek.png';
+import bergkelder from '../img/office/clientlogos/bergkelder.jpg';
+import chilloes from '../img/office/clientlogos/chilloes.jpg';
+import dbc from '../img/office/clientlogos/dbc.gif';
+import detoren from '../img/office/clientlogos/detoren.png';
+import distell from '../img/office/clientlogos/distell.png';
+import dorpstraathotel from '../img/office/clientlogos/dorpstraathotel.png';
+import durbanvillehills from '../img/office/clientlogos/durbanvillehills.png';
+import ellermanhouse from '../img/office/clientlogos/ellermanhouse.png';
+import fairtree from '../img/office/clientlogos/fairtree.jpg';
+import famousbrands from '../img/office/clientlogos/famousbrands.png';
+import fintec from '../img/office/clientlogos/fintec.png';
+import harbourbay from '../img/office/clientlogos/harbourbay.png';
+import hatstone from '../img/office/clientlogos/hatstone.jpg';
+import hungrylion from '../img/office/clientlogos/hungrylion.jpeg';
+import imperial from '../img/office/clientlogos/imperial.png';
+import jamessedgewick from '../img/office/clientlogos/jamessedgewick.jpg';
+import kwv from '../img/office/clientlogos/kwv.jpg';
+import labotessa from '../img/office/clientlogos/labotessa.png';
+import maafrika from '../img/office/clientlogos/maafrika.jpg';
+import moerby from '../img/office/clientlogos/moerby.jpg';
+import nederburg from '../img/office/clientlogos/nederburg.png';
+import nooitgedacht from '../img/office/clientlogos/nooitgedacht.png';
+import oakhill from '../img/office/clientlogos/oakhill.jpg';
+import plairse from '../img/office/clientlogos/plairse.png';
+import psg from '../img/office/clientlogos/psg.png';
+import psgkonsult from '../img/office/clientlogos/psgkonsult.jpg';
+import rootstock from '../img/office/clientlogos/rootstock.JPG';
+import rsc from '../img/office/clientlogos/rsc.jpg';
+import sanlameer from '../img/office/clientlogos/sanlameer.png';
+import schmidt from '../img/office/clientlogos/schmidt.JPG';
+import singletrack from '../img/office/clientlogos/singletrack.jpg';
+import stellenboschuni from '../img/office/clientlogos/stellenboschuni.jpeg';
+import synexus from '../img/office/clientlogos/synexus.jpeg';
+import wcc from '../img/office/clientlogos/wcc.png';
+import willis from '../img/office/clientlogos/willis.jpg';
+import zeder from '../img/office/clientlogos/zeder.jpg';
 
 class Office extends Component {
     render() {
@@ -149,7 +189,7 @@ class Office extends Component {
                         <div className="client-card">
                             <a href="/projectone">
                                 <img
-                                    src="https://loremflickr.com/320/240/woman"
+                                    src={aaf}
                                     alt="dogimage"
                                 />
                             </a>
@@ -157,7 +197,7 @@ class Office extends Component {
                         <div className="client-card">
                             <a href="/projectone">
                                 <img
-                                    src="https://loremflickr.com/320/240/man"
+                                    src={amc}
                                     alt="dogimage"
                                 />
                             </a>
@@ -165,7 +205,7 @@ class Office extends Component {
                         <div className="client-card">
                             <a href="/projectone">
                                 <img
-                                    src="https://loremflickr.com/320/240/lady"
+                                    src={arcinvestments}
                                     alt="dogimage"
                                 />
                             </a>
@@ -173,7 +213,7 @@ class Office extends Component {
                         <div className="client-card">
                             <a href="/projectone">
                                 <img
-                                    src="https://loremflickr.com/320/240/woman"
+                                    src={banhoek}
                                     alt="dogimage"
                                 />
                             </a>
@@ -181,7 +221,7 @@ class Office extends Component {
                         <div className="client-card">
                             <a href="/projectone">
                                 <img
-                                    src="https://loremflickr.com/320/240/man"
+                                    src={bergkelder}
                                     alt="dogimage"
                                 />
                             </a>
@@ -189,7 +229,7 @@ class Office extends Component {
                         <div className="client-card">
                             <a href="/projectone">
                                 <img
-                                    src="https://loremflickr.com/320/240/lady"
+                                    src={chilloes}
                                     alt="dogimage"
                                 />
                             </a>
@@ -197,7 +237,7 @@ class Office extends Component {
                         <div className="client-card">
                             <a href="/projectone">
                                 <img
-                                    src="https://loremflickr.com/320/240/woman"
+                                    src={dbc}
                                     alt="dogimage"
                                 />
                             </a>
@@ -205,7 +245,7 @@ class Office extends Component {
                         <div className="client-card">
                             <a href="/projectone">
                                 <img
-                                    src="https://loremflickr.com/320/240/man"
+                                    src={detoren}
                                     alt="dogimage"
                                 />
                             </a>
@@ -213,7 +253,7 @@ class Office extends Component {
                         <div className="client-card">
                             <a href="/projectone">
                                 <img
-                                    src="https://loremflickr.com/320/240/lady"
+                                    src={distell}
                                     alt="dogimage"
                                 />
                             </a>
@@ -221,7 +261,7 @@ class Office extends Component {
                         <div className="client-card">
                             <a href="/projectone">
                                 <img
-                                    src="https://loremflickr.com/320/240/woman"
+                                    src={dorpstraathotel}
                                     alt="dogimage"
                                 />
                             </a>
@@ -229,7 +269,7 @@ class Office extends Component {
                         <div className="client-card">
                             <a href="/projectone">
                                 <img
-                                    src="https://loremflickr.com/320/240/man"
+                                    src={durbanvillehills}
                                     alt="dogimage"
                                 />
                             </a>
@@ -237,7 +277,7 @@ class Office extends Component {
                         <div className="client-card">
                             <a href="/projectone">
                                 <img
-                                    src="https://loremflickr.com/320/240/lady"
+                                    src={ellermanhouse}
                                     alt="dogimage"
                                 />
                             </a>
@@ -245,7 +285,7 @@ class Office extends Component {
                         <div className="client-card">
                             <a href="/projectone">
                                 <img
-                                    src="https://loremflickr.com/320/240/woman"
+                                    src={fairtree}
                                     alt="dogimage"
                                 />
                             </a>
@@ -253,7 +293,7 @@ class Office extends Component {
                         <div className="client-card">
                             <a href="/projectone">
                                 <img
-                                    src="https://loremflickr.com/320/240/man"
+                                    src={famousbrands}
                                     alt="dogimage"
                                 />
                             </a>
@@ -261,7 +301,7 @@ class Office extends Component {
                         <div className="client-card">
                             <a href="/projectone">
                                 <img
-                                    src="https://loremflickr.com/320/240/lady"
+                                    src={fintec}
                                     alt="dogimage"
                                 />
                             </a>
@@ -269,7 +309,7 @@ class Office extends Component {
                         <div className="client-card">
                             <a href="/projectone">
                                 <img
-                                    src="https://loremflickr.com/320/240/woman"
+                                    src={harbourbay}
                                     alt="dogimage"
                                 />
                             </a>
@@ -277,18 +317,148 @@ class Office extends Component {
                         <div className="client-card">
                             <a href="/projectone">
                                 <img
-                                    src="https://loremflickr.com/320/240/man"
+                                    src={hatstone}
                                     alt="dogimage"
                                 />
                             </a>
                         </div>
                         <div className="client-card">
-                            <a href="/projectone">
-                                <img
-                                    src="https://loremflickr.com/320/240/lady"
-                                    alt="dogimage"
-                                />
-                            </a>
+                            <img
+                                src={hungrylion}
+                                alt="dogimage"
+                            />
+                        </div>
+                        <div className="client-card">
+                            <img
+                                src={imperial}
+                                alt="dogimage"
+                            />
+                        </div>
+                        <div className="client-card">
+                            <img
+                                src={jamessedgewick}
+                                alt="dogimage"
+                            />
+                        </div>
+                        <div className="client-card">
+                            <img
+                                src={kwv}
+                                alt="dogimage"
+                            />
+                        </div>
+                        <div className="client-card">
+                            <img
+                                src={labotessa}
+                                alt="dogimage"
+                            />
+                        </div>
+                        <div className="client-card">
+                            <img
+                                src={maafrika}
+                                alt="dogimage"
+                            />
+                        </div>
+                        <div className="client-card">
+                            <img
+                                src={moerby}
+                                alt="dogimage"
+                            />
+                        </div>
+                        <div className="client-card">
+                            <img
+                                src={nederburg}
+                                alt="dogimage"
+                            />
+                        </div>
+                        <div className="client-card">
+                            <img
+                                src={nooitgedacht}
+                                alt="dogimage"
+                            />
+                        </div>
+                        <div className="client-card">
+                            <img
+                                src={oakhill}
+                                alt="dogimage"
+                            />
+                        </div>
+                        <div className="client-card">
+                            <img
+                                src={plairse}
+                                alt="dogimage"
+                            />
+                        </div>
+                        <div className="client-card">
+                            <img
+                                src={psg}
+                                alt="dogimage"
+                            />
+                        </div>
+                        <div className="client-card">
+                            <img
+                                src={psgkonsult}
+                                alt="dogimage"
+                            />
+                        </div>
+                        <div className="client-card">
+                            <img
+                                src={rootstock}
+                                alt="dogimage"
+                            />
+                        </div>
+                        <div className="client-card">
+                            <img
+                                src={rsc}
+                                alt="dogimage"
+                            />
+                        </div>
+                        <div className="client-card">
+                            <img
+                                src={sanlameer}
+                                alt="dogimage"
+                            />
+                        </div>
+                        <div className="client-card">
+                            <img
+                                src={schmidt}
+                                alt="dogimage"
+                            />
+                        </div>
+                        <div className="client-card">
+                            <img
+                                src={singletrack}
+                                alt="dogimage"
+                            />
+                        </div>
+                        <div className="client-card">
+                            <img
+                                src={stellenboschuni}
+                                alt="dogimage"
+                            />
+                        </div>
+                        <div className="client-card">
+                            <img
+                                src={synexus}
+                                alt="dogimage"
+                            />
+                        </div>
+                        <div className="client-card">
+                            <img
+                                src={wcc}
+                                alt="dogimage"
+                            />
+                        </div>
+                        <div className="client-card">
+                            <img
+                                src={willis}
+                                alt="dogimage"
+                            />
+                        </div>
+                        <div className="client-card">
+                            <img
+                                src={zeder}
+                                alt="dogimage"
+                            />
                         </div>
                     </main>
                 </React.Fragment>

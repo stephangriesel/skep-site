@@ -5,13 +5,13 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-line-pack: center;
-  align-content: center;
+      align-content: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   max-width: 1050px;
 }
 
@@ -21,14 +21,14 @@
 }
 
 .center-wrapper .office-office {
-  background-image: url('../img/office/office-header.jpg');
+  background-image: url("../img/office/office-header.jpg");
   background-size: cover;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 60vh;
   font-size: 1.8em;
   width: 100%;
@@ -40,11 +40,11 @@
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .center-wrapper .flex-fourcolumns {
@@ -53,11 +53,11 @@
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .center-wrapper .section-column {
@@ -65,19 +65,19 @@
 }
 
 .center-wrapper .map-section {
-  background-image: url('https://images.pexels.com/photos/240834/pexels-photo-240834.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-image: url("https://images.pexels.com/photos/240834/pexels-photo-240834.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   height: 90vh;
 }
 
 .center-wrapper .office-people {
-  background-image: url('https://loremflickr.com/920/840/people');
+  background-image: url("../img/office/people-header.jpg");
   background-size: cover;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 60vh;
   font-size: 1.8em;
   width: 100%;
@@ -88,14 +88,14 @@
 }
 
 .center-wrapper .office-clients {
-  background-image: url('https://loremflickr.com/920/840/clients');
+  background-image: url("../img/office/clients-header.jpg");
   background-size: cover;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 60vh;
   font-size: 1.8em;
   width: 100%;
@@ -105,9 +105,14 @@
   display: -ms-grid;
   display: grid;
   grid-gap: 0.5rem;
-  -ms-grid-columns: (minmax(10rem, 1fr)) [auto-fit];
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  -ms-grid-columns: (minmax(10rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   cursor: pointer;
+  -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  padding: 0.7em;
 }
 
 .center-wrapper .client-card img {

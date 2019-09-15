@@ -16,12 +16,12 @@
 }
 
 .center-wrapper h1 {
-  color: #FFF;
+  color: #fff;
   text-transform: uppercase;
 }
 
 .center-wrapper .contact-contact {
-  background-image: url("https://loremflickr.com/920/840/phone");
+  background-image: url("../img/contact/contact-header.jpg");
   background-size: cover;
   -webkit-box-pack: center;
       -ms-flex-pack: center;

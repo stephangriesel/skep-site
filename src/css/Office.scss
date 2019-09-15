@@ -1,68 +1,71 @@
 .center-wrapper {
-    margin:auto;
-    display:flex;
-    flex-direction: column;
-    align-content: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  max-width: 1050px;
+  h1 {
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .office-office {
+    background-image: url('../img/office/office-header.jpg');
+    background-size: cover;
     justify-content: center;
-    max-width:1050px;
-    h1 {
-        color:#FFF;
-        text-transform: uppercase;        
-    }
-    .office-office {
-        background-image:url('https://loremflickr.com/920/840/office');
-        background-size:cover;
-        justify-content: center;
-        align-items: center;
-        height:60vh;
-        font-size:1.8em;
-        width:100%;
-    }
-    .flex-twocolumns {
-        display:flex;
-        flex-direction: row;
-        justify-content: flex-start;
-    }
-    .flex-fourcolumns {
-        display:flex;
-        flex-direction: row;
-        justify-content: flex-start;
-    }
-    .section-column {
-        width: 50%;
-    }
-    .map-section {
-        background-image:url('https://images.pexels.com/photos/240834/pexels-photo-240834.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-        height:90vh;
-    }
-    .office-people {
-        background-image:url('https://loremflickr.com/920/840/people');
-        background-size:cover;
-        justify-content: center;
-        align-items: center;
-        height:60vh;
-        font-size:1.8em;
-        width:100%;
-    }
-    .office-card img {
-        width:60%;
-    }
-    .office-clients {
-        background-image:url('https://loremflickr.com/920/840/clients');
-        background-size:cover;
-        justify-content: center;
-        align-items: center;
-        height:60vh;
-        font-size:1.8em;
-        width:100%;
-    }
-    .client-card {
-        display: grid;
-        grid-gap: 0.5rem;
-        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-        cursor: pointer;
-    }
-    .client-card img {
-        width:100%;
-    }
+    align-items: center;
+    height: 60vh;
+    font-size: 1.8em;
+    width: 100%;
+  }
+  .flex-twocolumns {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .flex-fourcolumns {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .section-column {
+    width: 50%;
+  }
+  .map-section {
+    background-image: url('https://images.pexels.com/photos/240834/pexels-photo-240834.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    height: 90vh;
+  }
+  .office-people {
+    background-image: url('../img/office/people-header.jpg');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    font-size: 1.8em;
+    width: 100%;
+  }
+  .office-card img {
+    width: 60%;
+  }
+  .office-clients {
+    background-image: url('../img/office/clients-header.jpg');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    font-size: 1.8em;
+    width: 100%;
+  }
+  .client-card {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    cursor: pointer;
+    align-self: center;
+    justify-self: center;
+    padding: 0.7em;
+  }
+  .client-card img {
+    width: 100%;
+  }
 }
