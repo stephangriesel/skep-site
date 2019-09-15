@@ -21,12 +21,10 @@ class Shop extends Component {
             <React.Fragment>
                 <main className="shop-card">
                     <div className="shop-card">
-                        <a href="/projectone">
-                            <img
-                                src={shop1}
-                                alt="dogimage"
-                            />
-                        </a>
+                        <img
+                            src={shop1}
+                            alt="dogimage"
+                        />
                         <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
@@ -34,96 +32,90 @@ class Shop extends Component {
                         </div>
                     </div>
                     <div className="shop-card">
-                        <a href="/projectone">
-                            <img
-                                src={shop2}
-                                alt="dogimage"
-                            />
-                        </a>
+                        <img
+                            src={shop2}
+                            alt="dogimage"
+                        />
                         <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
                         </div>
                     </div>
                     <div className="shop-card">
-                        <a href="/projectone">
-                            <img
-                                src={shop3}
-                                alt="dogimage"
-                            />
-                        </a>
+                        <img
+                            src={shop3}
+                            alt="dogimage"
+                        />
                         <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
                         </div>
                     </div>
                     <div className="shop-card">
-                        <a href="/projectone">
-                            <img
-                                src={shop4}
-                                alt="dogimage"
-                            />
-                        </a>
+                        <img
+                            src={shop4}
+                            alt="dogimage"
+                        />
                         <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
                         </div>
                     </div>
                     <div className="shop-card">
-                        <a href="/projectone">
-                            <img
-                                src={shop5}
-                                alt="dogimage"
-                            />
-                        </a>
+                        <img
+                            src={shop5}
+                            alt="dogimage"
+                        />
                         <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
                         </div>
                     </div>
                     <div className="shop-card">
-                        <a href="/projectone">
-                            <img
-                                src={shop6}
-                                alt="dogimage"
-                            />
-                        </a>
+                        <img
+                            src={shop6}
+                            alt="dogimage"
+                        />
                         <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
                         </div>
                     </div>
                     <div className="shop-card">
-                        <a href="/projectone">
-                            <img
-                                src={shop7}
-                                alt="dogimage"
-                            />
-                        </a>
+                        <img
+                            src={shop7}
+                            alt="dogimage"
+                        />
                         <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
                         </div>
                     </div>
                     <div className="shop-card">
-                        <a href="/projectone">
-                            <img
-                                src={shop8}
-                                alt="dogimage"
-                            />
-                        </a>
+                        <img
+                            src={shop8}
+                            alt="dogimage"
+                        />
                         <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
                         </div>
                     </div>
                     <div className="shop-card">
-                        <a href="/projectone">
-                            <img
-                                src={shop10}
-                                alt="dogimage"
-                            />
-                        </a>
+                        <img
+                            src={shop9}
+                            alt="dogimage"
+                        />
+                        <div className="info">
+                            <strong>Title</strong>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
+                        </div>
+                    </div>
+                    <div className="shop-card">
+                        <img
+                            src={shop10}
+                            alt="dogimage"
+                        />
                         <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
@@ -142,36 +134,30 @@ class Shop extends Component {
                         </div>
                     </div>
                     <div className="shop-card">
-                        <a href="/projectone">
-                            <img
-                                src={shop12}
-                                alt="dogimage"
-                            />
-                        </a>
+                        <img
+                            src={shop12}
+                            alt="dogimage"
+                        />
                         <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
                         </div>
                     </div>
                     <div className="shop-card">
-                        <a href="/projectone">
-                            <img
-                                src={shop13}
-                                alt="dogimage"
-                            />
-                        </a>
+                        <img
+                            src={shop13}
+                            alt="dogimage"
+                        />
                         <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
                         </div>
                     </div>
                     <div className="shop-card">
-                        <a href="/projectone">
-                            <img
-                                src={shop14}
-                                alt="dogimage"
-                            />
-                        </a>
+                        <img
+                            src={shop14}
+                            alt="dogimage"
+                        />
                         <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
