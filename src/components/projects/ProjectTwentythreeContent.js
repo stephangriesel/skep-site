@@ -45,7 +45,8 @@ class ProjectTwentythreeContent extends Component {
             accessibility: true,
             autoplay: true,
             // fade:true,
-            pauseOnHover: true
+            pauseOnHover: true,
+            adaptiveHeight: true
         };
         return (
 
