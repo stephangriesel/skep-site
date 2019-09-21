@@ -4,7 +4,7 @@ import geraldine from '../img/office/geraldine.jpg';
 import carla from '../img/office/carla.jpg';
 import charlotte from '../img/office/charlotte.jpg';
 import christi from '../img/office/christi.jpg';
-import gunther from '../img/office/gunther.jpg';
+// import gunther from '../img/office/gunther.jpg';
 import kulsum from '../img/office/kulsum.jpg';
 import lumari from '../img/office/lumari.jpg';
 import aaf from '../img/office/clientlogos/aaf.jpg';
@@ -121,7 +121,7 @@ class Office extends Component {
                                 alt="Charlotte"
                             />
                             <div className="info">
-                                <strong>Carla Gerber</strong>
+                                <strong>Charlotte Van Biljon</strong>
                                 <h5><em>Interior designer</em></h5>
                                 <p>Graduated with an interior design diploma from Design Time School of Interior Design in 2011</p>
                                 <p>Loves: All animals, Cinnabuns & my husband</p>
@@ -141,7 +141,7 @@ class Office extends Component {
                                 <p>Superpowers: Endurance</p>
                             </div>
                         </div>
-                        <div className="office-card">
+                        {/* <div className="office-card">
                             <img
                                 src={gunther}
                                 alt="Gunther"
@@ -153,7 +153,7 @@ class Office extends Component {
                                 <p>Loves: Making a difference</p>
                                 <p>Superpowers: Endurance</p>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="office-card">
                             <img
                                 src={kulsum}
