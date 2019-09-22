@@ -24,7 +24,7 @@ class ProjectTwentysevenContent extends Component {
             accessibility: true,
             autoplay: true,
             // fade:true,
-            pauseOnHover: true,
+            pauseOnHover: false,
             adaptiveHeight: true
         };
         return (

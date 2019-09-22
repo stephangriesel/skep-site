@@ -25,101 +25,101 @@ class Shop extends Component {
                             src={shop1}
                             alt="dogimage"
                         />
-                        <div className="info">
+                        {/* <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="shop-card">
                         <img
                             src={shop2}
                             alt="dogimage"
                         />
-                        <div className="info">
+                        {/* <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="shop-card">
                         <img
                             src={shop3}
                             alt="dogimage"
                         />
-                        <div className="info">
+                        {/* <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="shop-card">
                         <img
                             src={shop4}
                             alt="dogimage"
                         />
-                        <div className="info">
+                        {/* <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="shop-card">
                         <img
                             src={shop5}
                             alt="dogimage"
                         />
-                        <div className="info">
+                        {/* <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="shop-card">
                         <img
                             src={shop6}
                             alt="dogimage"
                         />
-                        <div className="info">
+                        {/* <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="shop-card">
                         <img
                             src={shop7}
                             alt="dogimage"
                         />
-                        <div className="info">
+                        {/* <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="shop-card">
                         <img
                             src={shop8}
                             alt="dogimage"
                         />
-                        <div className="info">
+                        {/* <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="shop-card">
                         <img
                             src={shop9}
                             alt="dogimage"
                         />
-                        <div className="info">
+                        {/* <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="shop-card">
                         <img
                             src={shop10}
                             alt="dogimage"
                         />
-                        <div className="info">
+                        {/* <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="shop-card">
                         <a href="/projectone">
@@ -128,40 +128,40 @@ class Shop extends Component {
                                 alt="dogimage"
                             />
                         </a>
-                        <div className="info">
+                        {/* <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="shop-card">
                         <img
                             src={shop12}
                             alt="dogimage"
                         />
-                        <div className="info">
+                        {/* <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="shop-card">
                         <img
                             src={shop13}
                             alt="dogimage"
                         />
-                        <div className="info">
+                        {/* <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="shop-card">
                         <img
                             src={shop14}
                             alt="dogimage"
                         />
-                        <div className="info">
+                        {/* <div className="info">
                             <strong>Title</strong>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
-                        </div>
+                        </div> */}
                     </div>
                 </main>
             </React.Fragment>
