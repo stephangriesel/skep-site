@@ -27,4 +27,3 @@ yarn-error.log*
 */*.netlify/state.json
 
 notes.txt
-_redirects

@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import '../css/Grid.css';
+import '../css/Loading.css';
+import logoSpin from '../logo.png';
+import { Preloader, Placeholder } from 'react-preloading-screen';
+
 import renaissanceCover from '../img/projects/project1-renaissance/ranaissance-2013.cover.jpg';
 import oubaaiCover from '../img/projects/project2-oubaai/oubaai-2018-cover.jpg';
 import fourtythreeonpleinCover from '../img/projects/project3-43onplein/fourthythreeonplein-2017-cover.jpg';
@@ -31,7 +35,7 @@ import zederCover from '../img/projects/project27-zeder/zeder-2017-cover.jpg';
 class Grid extends Component {
   render() {
     return (
-      <React.Fragment>
+      <Preloader>
         <main className="card">
           <div className="card">
             <a href="/projectone">
@@ -384,7 +388,14 @@ class Grid extends Component {
           </div>
 
         </main>
-      </React.Fragment>
+        <Placeholder>
+          <div className="loading">
+            <div>
+              <img id="loading" src={logoSpin} />
+            </div>
+          </div>
+        </Placeholder>
+      </Preloader>
     )
   }
 }
