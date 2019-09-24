@@ -174,7 +174,7 @@ class Shop extends Component {
                             <img id="loading" src={logoSpin} />
                         </div>
                         <div>
-                            <h3 className="blink">Loading...</h3>
+                            <h2 className="blink">Loading...</h2>
                         </div>
                     </div>
                 </Placeholder>

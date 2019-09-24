@@ -394,7 +394,7 @@ class Grid extends Component {
               <img id="loading" src={logoSpin} />
             </div>
             <div>
-              <h5 className="blink">Loading...</h5>
+              <h2 className="blink">Loading...</h2>
             </div>
           </div>
         </Placeholder>
