@@ -45,8 +45,8 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h3>Renaissance</h3>
-              <p>Year: 2013</p>
+              <h5>Renaissance</h5>
+              <p className="year">Year: 2013</p>
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -58,8 +58,8 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h3>Oubaai</h3>
-              <p>Year: 2018</p>
+              <h5>Oubaai</h5>
+              <p className="year">Year: 2018</p>
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -71,8 +71,8 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h3>43 on Plein</h3>
-              <p>Year: 2017</p>
+              <h5>43 on Plein</h5>
+              <p className="year">Year: 2017</p>
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -84,8 +84,8 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h3>Dorpstraat Boutique Hotel</h3>
-              <p>Year: 2015</p>
+              <h5>Dorpstraat Boutique Hotel</h5>
+              <p className="year">Year: 2015</p>
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -97,8 +97,8 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h3>PSG Stellenbosch</h3>
-              <p>Year: 2015</p>
+              <h5>PSG Stellenbosch</h5>
+              <p className="year">Year: 2015</p>
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -110,8 +110,8 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h3>Rootstock</h3>
-              <p>Year: 2015</p>
+              <h5>Rootstock</h5>
+              <p className="year">Year: 2015</p>
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -123,8 +123,8 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h3>Single Track Spinning Studio</h3>
-              <p>Year: 2018</p>
+              <h5>Single Track Spinning Studio</h5>
+              <p className="year">Year: 2018</p>
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -136,8 +136,8 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h3>Ellerman House</h3>
-              <p>Year: 2018</p>
+              <h5>Ellerman House</h5>
+              <p className="year">Year: 2018</p>
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -149,8 +149,8 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h3>Le Coetzenburg</h3>
-              <p>Year: 2019</p>
+              <h5>Le Coetzenburg</h5>
+              <p className="year">Year: 2019</p>
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -186,8 +186,8 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h3>Banhoek</h3>
-              <p>Year: 2018</p>
+              <h5>Banhoek</h5>
+              <p className="year">Year: 2018</p>
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -199,8 +199,8 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h3>Bakhoven</h3>
-              <p>Year: 2016</p>
+              <h5>Bakhoven</h5>
+              <p className="year">Year: 2016</p>
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -212,8 +212,8 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h3>Chilloes</h3>
-              <p>Year: 2016</p>
+              <h5>Chilloes</h5>
+              <p className="year">Year: 2016</p>
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -225,8 +225,8 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h3>Fintec</h3>
-              <p>Year: 2017</p>
+              <h5>Fintec</h5>
+              <p className="year">Year: 2017</p>
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -238,8 +238,8 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h3>Fairtree</h3>
-              <p>Year: 2015</p>
+              <h5>Fairtree</h5>
+              <p className="year">Year: 2015</p>
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -251,8 +251,8 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h3>House Bosch</h3>
-              <p>Year: 2017</p>
+              <h5>House Bosch</h5>
+              <p className="year">Year: 2017</p>
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -264,8 +264,8 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h3>Sanlameer</h3>
-              <p>Year: 2015</p>
+              <h5>Sanlameer</h5>
+              <p className="year">Year: 2015</p>
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -277,8 +277,8 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h3>House Knoesen</h3>
-              <p>Year: 2016</p>
+              <h5>House Knoesen</h5>
+              <p className="year">Year: 2016</p>
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -290,8 +290,8 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h3>Imperial Managed</h3>
-              <p>Year: 2014</p>
+              <h5>Imperial Managed</h5>
+              <p className="year">Year: 2014</p>
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -303,8 +303,8 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h3>James Sedgwick Distillery</h3>
-              <p>Year: 2016</p>
+              <h5>James Sedgwick Distillery</h5>
+              <p className="year">Year: 2016</p>
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -316,8 +316,8 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h3>Moerby</h3>
-              <p>Year: 2016</p>
+              <h5>Moerby</h5>
+              <p className="year">Year: 2016</p>
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -329,8 +329,8 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h3>Oakhill Church</h3>
-              <p>Year: 2015</p>
+              <h5>Oakhill Church</h5>
+              <p className="year">Year: 2015</p>
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -342,8 +342,8 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h3>PSG Johannesburg</h3>
-              <p>Year: 2015</p>
+              <h5>PSG Johannesburg</h5>
+              <p className="year">Year: 2015</p>
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -355,8 +355,8 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h3>Synexus CLinic</h3>
-              <p>Year: 2016</p>
+              <h5>Synexus CLinic</h5>
+              <p className="year">Year: 2016</p>
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -368,8 +368,8 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h3>Travelstart</h3>
-              <p>Year: 2015</p>
+              <h5>Travelstart</h5>
+              <p className="year">Year: 2015</p>
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -381,8 +381,8 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h3>Zeder</h3>
-              <p>Year: 2017</p>
+              <h5>Zeder</h5>
+              <p className="year">Year: 2017</p>
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -394,7 +394,7 @@ class Grid extends Component {
               <img id="loading" src={logoSpin} />
             </div>
             <div>
-              <h3 className="blink">Loading...</h3>
+              <h5 className="blink">Loading...</h5>
             </div>
           </div>
         </Placeholder>

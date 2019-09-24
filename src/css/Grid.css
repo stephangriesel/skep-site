@@ -20,7 +20,7 @@ main .card {
   margin: 0.8em;
 }
 
-.info h3 {
+.info h5 {
   padding: 0;
   margin: 0;
 }
@@ -28,6 +28,10 @@ main .card {
 .info p {
   padding: 0;
   margin: 0;
+}
+
+.year {
+  font-size: 0.8em;
 }
 
 main .card {
