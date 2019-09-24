@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import '../css/Shop.css';
+import { Preloader, Placeholder } from 'react-preloading-screen';
+import logoSpin from '../logo.png';
+
+
 import shop1 from '../img/shop/shop1.jpg';
 import shop2 from '../img/shop/shop2.jpg';
 import shop3 from '../img/shop/shop3.jpg';
@@ -18,7 +22,7 @@ import shop14 from '../img/shop/shop14.jpg';
 class Shop extends Component {
     render() {
         return (
-            <React.Fragment>
+            <Preloader>
                 <main className="shop-card">
                     <div className="shop-card">
                         <img
@@ -164,7 +168,17 @@ class Shop extends Component {
                         </div> */}
                     </div>
                 </main>
-            </React.Fragment>
+                <Placeholder>
+                    <div className="loading">
+                        <div>
+                            <img id="loading" src={logoSpin} />
+                        </div>
+                        <div>
+                            <h3 className="blink">Loading...</h3>
+                        </div>
+                    </div>
+                </Placeholder>
+            </Preloader>
 
         )
     }

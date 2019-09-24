@@ -393,6 +393,9 @@ class Grid extends Component {
             <div>
               <img id="loading" src={logoSpin} />
             </div>
+            <div>
+              <h3 className="blink">Loading...</h3>
+            </div>
           </div>
         </Placeholder>
       </Preloader>
