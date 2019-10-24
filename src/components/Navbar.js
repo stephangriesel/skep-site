@@ -7,11 +7,11 @@ const Navbar = props => (
     <header className="navbar">
         <nav className="navbar-navigation">
             <div className="navbar-toggle-button">
-                <ToggleButton click={props.menuClickHandler}/>
+                <ToggleButton click={props.menuClickHandler} />
             </div>
             <div className="navbar-logo">
                 <a href="/">
-                <img className="logo-img" src={logo} alt="logo" />
+                    <img className="logo-img" src={logo} alt="logo" />
                 </a>
             </div>
             <div className="navbar-navigation-items">
@@ -19,7 +19,7 @@ const Navbar = props => (
                     <li><a href="/">WORK</a></li>
                     <li><a href="office">OFFICE</a></li>
                     <li><a href="shop">SHOP</a></li>
-                    <li><a href="contact">CONTACT</a></li>
+                    {/* <li><a href="contact">CONTACT</a></li> */}
                 </ul>
             </div>
         </nav>

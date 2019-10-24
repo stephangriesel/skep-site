@@ -10,13 +10,26 @@
     text-transform: uppercase;
   }
   .office-office {
-    background-image: url('../img/office/office-header.jpg');
-    background-size: cover;
+    display: flex;
+    align-content: center;
     justify-content: center;
-    align-items: center;
-    height: 60vh;
-    font-size: 1.8em;
-    width: 100%;
+    img {
+      width: 40%;
+    }
+  }
+  .flex-onecolumn {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    p {
+      padding: 0.5em;
+      margin: 0;
+      font-size: 1.2em;
+    }
+  }
+  .office-map {
+    margin-top: 2em;
   }
   .flex-twocolumns {
     display: flex;
@@ -34,6 +47,14 @@
   .map-section {
     background-image: url('https://images.pexels.com/photos/240834/pexels-photo-240834.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     height: 90vh;
+  }
+  .info {
+    h5 {
+      padding: 0.4em 0;
+    }
+    p {
+      padding: 0.4em 0;
+    }
   }
   .office-people {
     background-image: url('../img/office/people-header.jpg');
@@ -67,5 +88,11 @@
   }
   .client-card img {
     width: 100%;
+  }
+}
+
+@media (max-width: 769px) {
+  .office-logo {
+    display: none;
   }
 }

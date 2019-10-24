@@ -21,17 +21,43 @@
 }
 
 .center-wrapper .office-office {
-  background-image: url("../img/office/office-header.jpg");
-  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 60vh;
-  font-size: 1.8em;
-  width: 100%;
+}
+
+.center-wrapper .office-office img {
+  width: 40%;
+}
+
+.center-wrapper .flex-onecolumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.center-wrapper .flex-onecolumn p {
+  padding: 0.5em;
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.center-wrapper .office-map {
+  margin-top: 2em;
 }
 
 .center-wrapper .flex-twocolumns {
@@ -67,6 +93,14 @@
 .center-wrapper .map-section {
   background-image: url("https://images.pexels.com/photos/240834/pexels-photo-240834.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   height: 90vh;
+}
+
+.center-wrapper .info h5 {
+  padding: 0.4em 0;
+}
+
+.center-wrapper .info p {
+  padding: 0.4em 0;
 }
 
 .center-wrapper .office-people {
@@ -117,5 +151,11 @@
 
 .center-wrapper .client-card img {
   width: 100%;
+}
+
+@media (max-width: 769px) {
+  .office-logo {
+    display: none;
+  }
 }
 /*# sourceMappingURL=Office.css.map */

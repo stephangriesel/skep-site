@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../css/Office.css';
 import logoSpin from '../logo.png';
 import { Preloader, Placeholder } from 'react-preloading-screen';
+import logo from '../logo.png';
 
 
 import geraldine from '../img/office/geraldine.jpg';
@@ -59,20 +60,16 @@ class Office extends Component {
             <Preloader>
                 <div className="center-wrapper">
                     <header className="office-office">
-                        <h1>Office</h1>
+                        <img className="office-logo" src={logo} alt="logo" />
                     </header>
-                    <section className="flex-twocolumns">
-                        <div className="section-column">
-                            <p>‘SKEP’ – to produce through artistic or imaginative effort.</p>
-                            <p>SKEP offers solutions tailored to specific needs and style, striving to produce creative, honest and environmentally responsible designs that add value to investments.</p>
-                        </div>
-                        <div className="section-column">
-                            <p>SKEP is a Stellenbosch based firm specializing in architecture and interior design services.SKEP is a Stellenbosch based firm specializing in architecture and interior design services.</p>
-                            <p>Founded in 2012 by Carla Gerber and Geraldine Heyns.</p>
-                        </div>
+                    <section className="flex-onecolumn">
+                        <p><strong>‘SKEP’</strong> – to produce through artistic or imaginative effort.</p>
+                        <p><strong>SKEP</strong> offers solutions tailored to specific needs and style, striving to produce creative, honest and environmentally responsible designs that add value to investments.</p>
+                        <p><strong>SKEP</strong> is a Stellenbosch based firm specializing in architecture and interior design services.SKEP is a Stellenbosch based firm specializing in architecture and interior design services.</p>
+                        <p>Founded in 2012 by Carla Gerber and Geraldine Heyns.</p>
                     </section>
-                    <section>
-                        <div className="">
+                    <section className="office-map">
+                        <div>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.1611883890564!2d18.8581432157708!3d-33.93698213003329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcdb25e904f9435%3A0x3f25de2c883a3026!2s4%20Plein%20St%2C%20Stellenbosch%20Central%2C%20Stellenbosch%2C%207600%2C%20South%20Africa!5e0!3m2!1sen!2snl!4v1568519891475!5m2!1sen!2snl" width="100%" height="700" frameborder="0" allowfullscreen="" title="map"></iframe>
                         </div>
                     </section>
