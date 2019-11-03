@@ -80,11 +80,19 @@ class Office extends Component {
                             <p>Plein Street 4</p>
                             <p>Anglo African Building</p>
                             <p>Stellenbosch, 7600</p>
-                        </div>
-                        <div className="section-column">
                             <h3>P.O. Box Address</h3>
                             <p>P.O. Box 396</p>
                             <p>Stellenbosch, 7599</p>
+                        </div>
+                        <div className="section-column">
+                            <h3>Contact</h3>
+                            <p>Geraldine: </p>
+                            <p>082 523 8123</p>
+                            <p className="space">-</p>
+                            <p>Carla: </p>
+                            <p>082 863 3482</p>
+                            <h3>Office Number</h3>
+                            <p>021 882 9450</p>
                         </div>
                     </section>
                     <header className="office-people">
