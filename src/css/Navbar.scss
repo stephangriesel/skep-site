@@ -8,6 +8,14 @@
 .navbar-logo {
   background: none;
   margin-left: 0.5rem;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  h2 {
+    color: #0a244d;
+    text-transform: lowercase;
+    margin-left: 0.4rem;
+  }
 }
 
 .navbar-navigation {
@@ -50,6 +58,13 @@
 
   .navbar-navigation-items {
     display: none;
+  }
+  .navbar-logo {
+    display: flex;
+    flex-direction: column;
+    h2 {
+      margin-left: 0;
+    }
   }
 }
 

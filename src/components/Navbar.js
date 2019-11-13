@@ -13,6 +13,7 @@ const Navbar = props => (
                 <a href="/">
                     <img className="logo-img" src={logo} alt="logo" />
                 </a>
+                <h2>INTERIOR | ARCHITECTURE</h2>
             </div>
             <div className="navbar-navigation-items">
                 <ul>

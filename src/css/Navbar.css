@@ -7,6 +7,19 @@
 .navbar-logo {
   background: none;
   margin-left: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-logo h2 {
+  color: #0a244d;
+  text-transform: lowercase;
+  margin-left: 0.4rem;
 }
 
 .navbar-navigation {
@@ -61,6 +74,18 @@
   }
   .navbar-navigation-items {
     display: none;
+  }
+  .navbar-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .navbar-logo h2 {
+    margin-left: 0;
   }
 }
 
