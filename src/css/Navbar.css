@@ -17,8 +17,9 @@
 }
 
 .navbar-logo h2 {
-  color: #0a244d;
+  color: #a98f71;
   text-transform: lowercase;
+  font-weight: 100;
   margin-left: 0.4rem;
 }
 
