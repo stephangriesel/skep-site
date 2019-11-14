@@ -20,6 +20,7 @@ main .card {
   text-align: left;
   margin: 0.8em;
   h5 {
+    color: #0a244d;
     padding: 0;
     margin: 0;
   }
@@ -35,7 +36,7 @@ main .card {
 }
 
 main .card {
-  background: rgba(243, 243, 243, 0.959);
+  // background: rgba(243, 243, 243, 0.959);
 }
 
 main .card:hover {

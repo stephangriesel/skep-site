@@ -21,6 +21,7 @@ main .card {
 }
 
 .info h5 {
+  color: #0a244d;
   padding: 0;
   margin: 0;
 }
@@ -32,10 +33,6 @@ main .card {
 
 .year {
   font-size: 0.8em;
-}
-
-main .card {
-  background: rgba(243, 243, 243, 0.959);
 }
 
 main .card:hover {
