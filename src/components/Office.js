@@ -65,8 +65,7 @@ class Office extends Component {
                     <section className="flex-onecolumn">
                         <p><strong>‘SKEP’</strong> – to produce through artistic or imaginative effort.</p>
                         <p><strong>SKEP</strong> offers solutions tailored to specific needs and style, striving to produce creative, honest and environmentally responsible designs that add value to investments.</p>
-                        <p><strong>SKEP</strong> is a Stellenbosch based firm specializing in architecture and interior design services.SKEP is a Stellenbosch based firm specializing in architecture and interior design services.</p>
-                        <p>Founded in 2012 by Carla Gerber and Geraldine Heyns.</p>
+                        {/* <p>Founded in 2012 by Carla Gerber and Geraldine Heyns.</p> */}
                     </section>
                     <section className="office-map">
                         <div>
