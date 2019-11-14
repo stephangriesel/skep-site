@@ -46,7 +46,7 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>Renaissance</h5>
-              <p className="year">Year: 2013</p>
+              {/* <p className="year">Year: 2013</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -59,7 +59,7 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>Oubaai</h5>
-              <p className="year">Year: 2018</p>
+              {/* <p className="year">Year: 2018</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -72,7 +72,7 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>43 on Plein</h5>
-              <p className="year">Year: 2017</p>
+              {/* <p className="year">Year: 2017</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -85,7 +85,7 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>Dorpstraat Boutique Hotel</h5>
-              <p className="year">Year: 2015</p>
+              {/* <p className="year">Year: 2015</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -98,7 +98,7 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>PSG Stellenbosch</h5>
-              <p className="year">Year: 2015</p>
+              {/* <p className="year">Year: 2015</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -111,7 +111,7 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>Rootstock</h5>
-              <p className="year">Year: 2015</p>
+              {/* <p className="year">Year: 2015</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -124,7 +124,7 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>Single Track Spinning Studio</h5>
-              <p className="year">Year: 2018</p>
+              {/* <p className="year">Year: 2018</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -137,7 +137,7 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>Ellerman House</h5>
-              <p className="year">Year: 2018</p>
+              {/* <p className="year">Year: 2018</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -150,7 +150,7 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>Le Coetzenburg</h5>
-              <p className="year">Year: 2019</p>
+              {/* <p className="year">Year: 2019</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -187,7 +187,7 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>Banhoek</h5>
-              <p className="year">Year: 2018</p>
+              {/* <p className="year">Year: 2018</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -200,7 +200,7 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>Bakhoven</h5>
-              <p className="year">Year: 2016</p>
+              {/* <p className="year">Year: 2016</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -213,7 +213,7 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>Chilloes</h5>
-              <p className="year">Year: 2016</p>
+              {/* <p className="year">Year: 2016</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -226,7 +226,7 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>Fintec</h5>
-              <p className="year">Year: 2017</p>
+              {/* <p className="year">Year: 2017</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -239,7 +239,7 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>Fairtree</h5>
-              <p className="year">Year: 2015</p>
+              {/* <p className="year">Year: 2015</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -252,7 +252,7 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>House Bosch</h5>
-              <p className="year">Year: 2017</p>
+              {/* <p className="year">Year: 2017</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -265,7 +265,7 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>Sanlameer</h5>
-              <p className="year">Year: 2015</p>
+              {/* <p className="year">Year: 2015</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -278,7 +278,7 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>House Knoesen</h5>
-              <p className="year">Year: 2016</p>
+              {/* <p className="year">Year: 2016</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -291,7 +291,7 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>Imperial Managed</h5>
-              <p className="year">Year: 2014</p>
+              {/* <p className="year">Year: 2014</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -304,7 +304,7 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>James Sedgwick Distillery</h5>
-              <p className="year">Year: 2016</p>
+              {/* <p className="year">Year: 2016</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -317,7 +317,7 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>Moerby</h5>
-              <p className="year">Year: 2016</p>
+              {/* <p className="year">Year: 2016</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -330,7 +330,7 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>Oakhill Church</h5>
-              <p className="year">Year: 2015</p>
+              {/* <p className="year">Year: 2015</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -343,7 +343,7 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>PSG Johannesburg</h5>
-              <p className="year">Year: 2015</p>
+              {/* <p className="year">Year: 2015</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -356,7 +356,7 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>Synexus CLinic</h5>
-              <p className="year">Year: 2016</p>
+              {/* <p className="year">Year: 2016</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -369,7 +369,7 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>Travelstart</h5>
-              <p className="year">Year: 2015</p>
+              {/* <p className="year">Year: 2015</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
@@ -382,7 +382,7 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>Zeder</h5>
-              <p className="year">Year: 2017</p>
+              {/* <p className="year">Year: 2017</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
