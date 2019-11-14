@@ -52,6 +52,8 @@ import synexus from '../img/office/clientlogos/synexus.jpeg';
 import wcc from '../img/office/clientlogos/wcc.png';
 import willis from '../img/office/clientlogos/willis.jpg';
 import zeder from '../img/office/clientlogos/zeder.jpg';
+import famousbrandstwo from '../img/office/clientlogos/famousbrands2.png';
+import latitude from '../img/office/clientlogos/latitude.png';
 
 
 class Office extends Component {
@@ -200,7 +202,7 @@ class Office extends Component {
                                 <a href="/projectone">
                                     <img
                                         src={aaf}
-                                        alt="dogimage"
+                                        alt="logoimage"
                                     />
                                 </a>
                             </div>
@@ -208,7 +210,7 @@ class Office extends Component {
                                 <a href="/projectone">
                                     <img
                                         src={amc}
-                                        alt="dogimage"
+                                        alt="logo"
                                     />
                                 </a>
                             </div>
@@ -216,7 +218,7 @@ class Office extends Component {
                                 <a href="/projectone">
                                     <img
                                         src={arcinvestments}
-                                        alt="dogimage"
+                                        alt="logoimage"
                                     />
                                 </a>
                             </div>
@@ -224,7 +226,7 @@ class Office extends Component {
                                 <a href="/projectone">
                                     <img
                                         src={banhoek}
-                                        alt="dogimage"
+                                        alt="logoimage"
                                     />
                                 </a>
                             </div>
@@ -232,7 +234,7 @@ class Office extends Component {
                                 <a href="/projectone">
                                     <img
                                         src={bergkelder}
-                                        alt="dogimage"
+                                        alt="logoimage"
                                     />
                                 </a>
                             </div>
@@ -240,7 +242,7 @@ class Office extends Component {
                                 <a href="/projectone">
                                     <img
                                         src={chilloes}
-                                        alt="dogimage"
+                                        alt="logoimage"
                                     />
                                 </a>
                             </div>
@@ -248,7 +250,7 @@ class Office extends Component {
                                 <a href="/projectone">
                                     <img
                                         src={dbc}
-                                        alt="dogimage"
+                                        alt="logoimage"
                                     />
                                 </a>
                             </div>
@@ -256,7 +258,7 @@ class Office extends Component {
                                 <a href="/projectone">
                                     <img
                                         src={detoren}
-                                        alt="dogimage"
+                                        alt="logoimage"
                                     />
                                 </a>
                             </div>
@@ -264,7 +266,7 @@ class Office extends Component {
                                 <a href="/projectone">
                                     <img
                                         src={distell}
-                                        alt="dogimage"
+                                        alt="logoimage"
                                     />
                                 </a>
                             </div>
@@ -272,7 +274,7 @@ class Office extends Component {
                                 <a href="/projectone">
                                     <img
                                         src={dorpstraathotel}
-                                        alt="dogimage"
+                                        alt="logoimage"
                                     />
                                 </a>
                             </div>
@@ -280,7 +282,7 @@ class Office extends Component {
                                 <a href="/projectone">
                                     <img
                                         src={durbanvillehills}
-                                        alt="dogimage"
+                                        alt="logoimage"
                                     />
                                 </a>
                             </div>
@@ -288,7 +290,7 @@ class Office extends Component {
                                 <a href="/projectone">
                                     <img
                                         src={ellermanhouse}
-                                        alt="dogimage"
+                                        alt="logoimage"
                                     />
                                 </a>
                             </div>
@@ -296,7 +298,7 @@ class Office extends Component {
                                 <a href="/projectone">
                                     <img
                                         src={fairtree}
-                                        alt="dogimage"
+                                        alt="logoimage"
                                     />
                                 </a>
                             </div>
@@ -304,7 +306,7 @@ class Office extends Component {
                                 <a href="/projectone">
                                     <img
                                         src={famousbrands}
-                                        alt="dogimage"
+                                        alt="logoimage"
                                     />
                                 </a>
                             </div>
@@ -312,7 +314,7 @@ class Office extends Component {
                                 <a href="/projectone">
                                     <img
                                         src={fintec}
-                                        alt="dogimage"
+                                        alt="logoimage"
                                     />
                                 </a>
                             </div>
@@ -320,7 +322,7 @@ class Office extends Component {
                                 <a href="/projectone">
                                     <img
                                         src={harbourbay}
-                                        alt="dogimage"
+                                        alt="logoimage"
                                     />
                                 </a>
                             </div>
@@ -328,146 +330,158 @@ class Office extends Component {
                                 <a href="/projectone">
                                     <img
                                         src={hatstone}
-                                        alt="dogimage"
+                                        alt="logoimage"
                                     />
                                 </a>
                             </div>
                             <div className="client-card">
                                 <img
                                     src={hungrylion}
-                                    alt="dogimage"
+                                    alt="logoimage"
                                 />
                             </div>
                             <div className="client-card">
                                 <img
                                     src={imperial}
-                                    alt="dogimage"
+                                    alt="logoimage"
                                 />
                             </div>
                             <div className="client-card">
                                 <img
                                     src={jamessedgewick}
-                                    alt="dogimage"
+                                    alt="logoimage"
                                 />
                             </div>
                             <div className="client-card">
                                 <img
                                     src={kwv}
-                                    alt="dogimage"
+                                    alt="logoimage"
                                 />
                             </div>
                             <div className="client-card">
                                 <img
                                     src={labotessa}
-                                    alt="dogimage"
+                                    alt="logoimage"
                                 />
                             </div>
                             <div className="client-card">
                                 <img
                                     src={maafrika}
-                                    alt="dogimage"
+                                    alt="logoimage"
                                 />
                             </div>
                             <div className="client-card">
                                 <img
                                     src={moerby}
-                                    alt="dogimage"
+                                    alt="logoimage"
                                 />
                             </div>
                             <div className="client-card">
                                 <img
                                     src={nederburg}
-                                    alt="dogimage"
+                                    alt="logoimage"
                                 />
                             </div>
                             <div className="client-card">
                                 <img
                                     src={nooitgedacht}
-                                    alt="dogimage"
+                                    alt="logoimage"
                                 />
                             </div>
                             <div className="client-card">
                                 <img
                                     src={oakhill}
-                                    alt="dogimage"
+                                    alt="logoimage"
                                 />
                             </div>
                             <div className="client-card">
                                 <img
                                     src={plairse}
-                                    alt="dogimage"
+                                    alt="logoimage"
                                 />
                             </div>
                             <div className="client-card">
                                 <img
                                     src={psg}
-                                    alt="dogimage"
+                                    alt="logoimage"
                                 />
                             </div>
                             <div className="client-card">
                                 <img
                                     src={psgkonsult}
-                                    alt="dogimage"
+                                    alt="logoimage"
                                 />
                             </div>
                             <div className="client-card">
                                 <img
                                     src={rootstock}
-                                    alt="dogimage"
+                                    alt="logoimage"
                                 />
                             </div>
                             <div className="client-card">
                                 <img
                                     src={rsc}
-                                    alt="dogimage"
+                                    alt="logoimage"
                                 />
                             </div>
                             <div className="client-card">
                                 <img
                                     src={sanlameer}
-                                    alt="dogimage"
+                                    alt="logoimage"
                                 />
                             </div>
                             <div className="client-card">
                                 <img
                                     src={schmidt}
-                                    alt="dogimage"
+                                    alt="logoimage"
                                 />
                             </div>
                             <div className="client-card">
                                 <img
                                     src={singletrack}
-                                    alt="dogimage"
+                                    alt="logoimage"
                                 />
                             </div>
                             <div className="client-card">
                                 <img
                                     src={stellenboschuni}
-                                    alt="dogimage"
+                                    alt="logoimage"
                                 />
                             </div>
                             <div className="client-card">
                                 <img
                                     src={synexus}
-                                    alt="dogimage"
+                                    alt="logoimage"
                                 />
                             </div>
                             <div className="client-card">
                                 <img
                                     src={wcc}
-                                    alt="dogimage"
+                                    alt="logoimage"
                                 />
                             </div>
                             <div className="client-card">
                                 <img
                                     src={willis}
-                                    alt="dogimage"
+                                    alt="logoimage"
                                 />
                             </div>
                             <div className="client-card">
                                 <img
                                     src={zeder}
-                                    alt="dogimage"
+                                    alt="logoimage"
+                                />
+                            </div>
+                            <div className="client-card">
+                                <img
+                                    src={famousbrandstwo}
+                                    alt="logoimage"
+                                />
+                            </div>
+                            <div className="client-card">
+                                <img
+                                    src={latitude}
+                                    alt="logoimage"
                                 />
                             </div>
                         </main>
