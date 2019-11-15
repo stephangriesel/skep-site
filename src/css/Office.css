@@ -20,6 +20,10 @@
   text-transform: uppercase;
 }
 
+.center-wrapper h4 {
+  color: #0a244d;
+}
+
 .center-wrapper .office-office {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -109,12 +113,31 @@
   height: 90vh;
 }
 
+.center-wrapper .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .center-wrapper .info h5 {
   padding: 0.4em 0;
+  color: #737373;
 }
 
 .center-wrapper .info p {
-  padding: 0.4em 0;
+  color: #737373;
+  text-align: center;
+  padding: 0.4em 1em;
 }
 
 .center-wrapper .office-people {
@@ -129,6 +152,13 @@
   height: 60vh;
   font-size: 1.8em;
   width: 100%;
+}
+
+.center-wrapper .people-name {
+  font-size: 1.5em;
+  font-weight: 100;
+  font-style: italic;
+  color: #3a3a3a;
 }
 
 .center-wrapper .office-card img {

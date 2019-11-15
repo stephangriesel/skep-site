@@ -110,11 +110,11 @@ class Office extends Component {
                                     />
                                 </div>
                                 <div className="info">
-                                    <strong>Geraldine Heyns</strong>
+                                    <strong class="people-name">Geraldine Heyns</strong>
                                     <h5><em>Architect and interior designer</em></h5>
                                     <p>Graduated with a M Arch and BSc Arch from the University of Pretoria and completed her MBA from UNISA in 2011</p>
-                                    <p>Loves: Her kids and the colour yellow</p>
-                                    <p>Superpowers: Smiling for days <span style={{ fontSize: '28px' }}>☺</span></p>
+                                    <p><strong>Loves:</strong> Her kids and the colour yellow</p>
+                                    <p><strong>Superpowers:</strong> Smiling for days <span style={{ fontSize: '28px' }}>☺</span></p>
                                 </div>
                             </div>
                             <div className="office-card">
@@ -126,11 +126,11 @@ class Office extends Component {
                                     />
                                 </div>
                                 <div className="info">
-                                    <strong>Carla Gerber</strong>
+                                    <strong class="people-name">Carla Gerber</strong>
                                     <h5><em>Interior designer</em></h5>
                                     <p>Graduated with a Higher Diploma from The Design School of South Africa – affiliated with London School of arts</p>
-                                    <p>Loves: family & good wine</p>
-                                    <p>Superpowers: Always sees the good in people</p>
+                                    <p><strong>Loves:</strong> family & good wine</p>
+                                    <p><strong>Superpowers:</strong> Always sees the good in people</p>
                                 </div>
                             </div>
                             <div className="office-card">
@@ -142,11 +142,11 @@ class Office extends Component {
                                     />
                                 </div>
                                 <div className="info">
-                                    <strong>Charlotte Van Biljon</strong>
+                                    <strong class="people-name">Charlotte Van Biljon</strong>
                                     <h5><em>Interior designer</em></h5>
                                     <p>Graduated with an interior design diploma from Design Time School of Interior Design in 2011</p>
-                                    <p>Loves: All animals, Cinnabuns & my husband</p>
-                                    <p>Superpowers: I can spring clean a house in 15 minute</p>
+                                    <p><strong>Loves: </strong>All animals, Cinnabuns & my husband</p>
+                                    <p><strong>Superpowers:</strong> I can spring clean a house in 15 minute</p>
                                 </div>
                             </div>
                             <div className="office-card">
@@ -158,26 +158,13 @@ class Office extends Component {
                                     />
                                 </div>
                                 <div className="info">
-                                    <strong>Christi Du Plessis</strong>
+                                    <strong class="people-name">Christi Du Plessis</strong>
                                     <h5><em>Interior designer</em></h5>
                                     <p>National Certificate in Interior design TUT (Tshwane University of Technology) – 2005</p>
-                                    <p>Loves: Making a difference</p>
-                                    <p>Superpowers: Endurance</p>
+                                    <p><strong>Loves: </strong>Making a difference</p>
+                                    <p><strong>Superpowers: </strong>Endurance</p>
                                 </div>
                             </div>
-                            {/* <div className="office-card">
-                            <img
-                                src={gunther}
-                                alt="Gunther"
-                            />
-                            <div className="info">
-                                <strong>Christi Du Plessis</strong>
-                                <h5><em>Interior designer</em></h5>
-                                <p>National Certificate in Interior design TUT (Tshwane University of Technology) – 2005</p>
-                                <p>Loves: Making a difference</p>
-                                <p>Superpowers: Endurance</p>
-                            </div>
-                        </div> */}
                             <div className="office-card">
                                 <div className="img-wrapper">
                                     <img
@@ -187,10 +174,10 @@ class Office extends Component {
                                     />
                                 </div>
                                 <div className="info">
-                                    <strong>Kulsum Dickson</strong>
+                                    <strong class="people-name">Kulsum Dickson</strong>
                                     <h5><em>Office manager</em></h5>
-                                    <p>Loves: Helping others and spending time with family</p>
-                                    <p>Superpowers: Brews the best cappuccinos ever</p>
+                                    <p><strong>Loves:</strong> Helping others and spending time with family</p>
+                                    <p><strong>Superpowers:</strong> Brews the best cappuccinos ever</p>
                                 </div>
                             </div>
                             <div className="office-card">
@@ -202,18 +189,18 @@ class Office extends Component {
                                     />
                                 </div>
                                 <div className="info">
-                                    <strong>Lumari Pretorius</strong>
+                                    <strong class="people-name">Lumari Pretorius</strong>
                                     <h5><em>Architect and interior designer</em></h5>
                                     <p>National Certificate in Interior design TUT (Tshwane University of Technology) – 2005</p>
-                                    <p>Loves: Learning new things, designing and going on adventures</p>
-                                    <p>Superpowers: Dynamite comes in small package</p>
+                                    <p><strong>Loves:</strong> Learning new things, designing and going on adventures</p>
+                                    <p><strong>Superpowers:</strong> Dynamite comes in small package</p>
                                 </div>
                             </div>
                         </main>
                     </React.Fragment>
-                    <header className="office-clients">
-                        <h1>Clients</h1>
-                    </header>
+                    {/* <header className="office-clients"> */}
+                    <h4>Clients</h4>
+                    {/* </header> */}
                     <React.Fragment>
                         <main className="client-card">
                             <div className="client-card">

@@ -9,6 +9,9 @@
     color: #fff;
     text-transform: uppercase;
   }
+  h4 {
+    color: #0a244d;
+  }
   .office-office {
     display: flex;
     align-content: center;
@@ -60,11 +63,18 @@
     height: 90vh;
   }
   .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     h5 {
       padding: 0.4em 0;
+      color: #737373;
     }
     p {
-      padding: 0.4em 0;
+      color: #737373;
+      text-align: center;
+      padding: 0.4em 1em;
     }
   }
   .office-people {
@@ -75,6 +85,13 @@
     height: 60vh;
     font-size: 1.8em;
     width: 100%;
+  }
+
+  .people-name {
+    font-size: 1.5em;
+    font-weight: 100;
+    font-style: italic;
+    color: #3a3a3a;
   }
   .office-card img {
     width: 60%;
