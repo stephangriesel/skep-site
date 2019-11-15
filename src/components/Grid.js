@@ -4,7 +4,7 @@ import '../css/Loading.css';
 import logoSpin from '../logo.png';
 import { Preloader, Placeholder } from 'react-preloading-screen';
 
-import renaissanceCover from '../img/covers/ranaissance-2013.cover.jpg';
+// import renaissanceCover from '../img/covers/ranaissance-2013.cover.jpg';
 import oubaaiCover from '../img/covers/oubaai-2018-cover.jpg';
 import fourtythreeonpleinCover from '../img/covers/fourthythreeonplein-2017-cover.jpg';
 import dorpstraatboutiquehotelCover from '../img/covers/dorpstraatboutiquehotel-2015-cover.jpg';
@@ -37,7 +37,7 @@ class Grid extends Component {
     return (
       <Preloader>
         <main className="card">
-          <div className="card">
+          {/* <div className="card">
             <a href="/projectone">
               <img
                 src={renaissanceCover}
@@ -45,11 +45,11 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h5>Renaissance</h5>
-              {/* <p className="year">Year: 2013</p> */}
-              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
-            </div>
-          </div>
+              <h5>Renaissance</h5> */}
+          {/* <p className="year">Year: 2013</p> */}
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+          {/* </div>
+          </div> */}
           <div className="card">
             <a href="/projecttwo">
               <img

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../css/Carousel.css';
 import Slider from "react-slick";
 import coverimage from '../../img/projects/project13-bakhovenresidence/bakhovenhouse-2016-cover.jpg';
-import oneimage from '../../img/projects/project13-bakhovenresidence/bakhovenhouse-2016-cover.jpg';
+// import oneimage from '../../img/projects/project13-bakhovenresidence/bakhovenhouse-2016-cover.jpg';
 import twoimage from '../../img/projects/project13-bakhovenresidence/bakhovenhouse-2016-2.jpg';
 import threeimage from '../../img/projects/project13-bakhovenresidence/bakhovenhouse-2016-4.jpg';
 import fourimage from '../../img/projects/project13-bakhovenresidence/bakhovenhouse-2016-4.jpg';
@@ -50,9 +50,9 @@ class ProjectThirteenContent extends Component {
                 <div className="slide-image">
                     <img src={coverimage} alt="slideimage" />
                 </div>
-                <div className="slide-image">
+                {/* <div className="slide-image">
                     <img src={oneimage} alt="slideimage" />
-                </div>
+                </div> */}
                 <div className="slide-image">
                     <img src={twoimage} alt="slideimage" />
                 </div>
