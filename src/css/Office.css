@@ -135,6 +135,24 @@
   width: 60%;
 }
 
+.center-wrapper .img-wrapper {
+  width: 30em;
+  height: 30em;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.center-wrapper .img-wrapper img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  border-radius: 50%;
+}
+
 .center-wrapper .office-clients {
   background-image: url("../img/office/clients-header.jpg");
   background-size: cover;
