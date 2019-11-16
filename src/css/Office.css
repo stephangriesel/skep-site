@@ -13,6 +13,9 @@
       -ms-flex-pack: center;
           justify-content: center;
   max-width: 1050px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .center-wrapper h1 {
@@ -162,25 +165,7 @@
 }
 
 .center-wrapper .office-card img {
-  width: 60%;
-}
-
-.center-wrapper .img-wrapper {
-  width: 30em;
-  height: 30em;
-  border-radius: 50%;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-}
-
-.center-wrapper .img-wrapper img {
   width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-  border-radius: 50%;
 }
 
 .center-wrapper .office-clients {
@@ -195,6 +180,23 @@
   height: 60vh;
   font-size: 1.8em;
   width: 100%;
+}
+
+.center-wrapper .office-card {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 3rem;
+  -ms-grid-columns: (minmax(20rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  height: 100%;
+}
+
+.center-wrapper .office-card img {
+  border-radius: 50%;
 }
 
 .center-wrapper .client-card {

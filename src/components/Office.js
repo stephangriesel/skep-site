@@ -102,13 +102,11 @@ class Office extends Component {
                     <React.Fragment>
                         <main className="office-card">
                             <div className="office-card">
-                                <div className="img-wrapper">
-                                    <img
-                                        src={geraldine}
-                                        alt="Geraldine"
-                                        className="img"
-                                    />
-                                </div>
+                                <img
+                                    src={geraldine}
+                                    alt="Geraldine"
+
+                                />
                                 <div className="info">
                                     <strong class="people-name">Geraldine Heyns</strong>
                                     <h5><em>Architect and interior designer</em></h5>
@@ -118,13 +116,13 @@ class Office extends Component {
                                 </div>
                             </div>
                             <div className="office-card">
-                                <div className="img-wrapper">
-                                    <img
-                                        src={carla}
-                                        alt="Carla"
-                                        className="img"
-                                    />
-                                </div>
+
+                                <img
+                                    src={carla}
+                                    alt="Carla"
+
+                                />
+
                                 <div className="info">
                                     <strong class="people-name">Carla Gerber</strong>
                                     <h5><em>Interior designer</em></h5>
@@ -134,13 +132,13 @@ class Office extends Component {
                                 </div>
                             </div>
                             <div className="office-card">
-                                <div className="img-wrapper">
-                                    <img
-                                        src={charlotte}
-                                        alt="Charlotte"
-                                        className="img"
-                                    />
-                                </div>
+
+                                <img
+                                    src={charlotte}
+                                    alt="Charlotte"
+
+                                />
+
                                 <div className="info">
                                     <strong class="people-name">Charlotte Van Biljon</strong>
                                     <h5><em>Interior designer</em></h5>
@@ -150,13 +148,13 @@ class Office extends Component {
                                 </div>
                             </div>
                             <div className="office-card">
-                                <div className="img-wrapper">
-                                    <img
-                                        src={christi}
-                                        alt="Christi"
-                                        className="img"
-                                    />
-                                </div>
+
+                                <img
+                                    src={christi}
+                                    alt="Christi"
+                                    className="img"
+                                />
+
                                 <div className="info">
                                     <strong class="people-name">Christi Du Plessis</strong>
                                     <h5><em>Interior designer</em></h5>
@@ -166,13 +164,13 @@ class Office extends Component {
                                 </div>
                             </div>
                             <div className="office-card">
-                                <div className="img-wrapper">
-                                    <img
-                                        src={kulsum}
-                                        alt="Kulsum"
-                                        className="img"
-                                    />
-                                </div>
+
+                                <img
+                                    src={kulsum}
+                                    alt="Kulsum"
+                                    className="img"
+                                />
+
                                 <div className="info">
                                     <strong class="people-name">Kulsum Dickson</strong>
                                     <h5><em>Office manager</em></h5>
@@ -181,13 +179,13 @@ class Office extends Component {
                                 </div>
                             </div>
                             <div className="office-card">
-                                <div className="img-wrapper">
-                                    <img
-                                        src={lumari}
-                                        alt="Lumari"
-                                        className="img"
-                                    />
-                                </div>
+
+                                <img
+                                    src={lumari}
+                                    alt="Lumari"
+                                    className="img"
+                                />
+
                                 <div className="info">
                                     <strong class="people-name">Lumari Pretorius</strong>
                                     <h5><em>Architect and interior designer</em></h5>
