@@ -22,7 +22,7 @@ class ProjectTwentyContent extends Component {
             slidesToScroll: 1,
             arrows: false,
             accessibility: true,
-            autoplay: true,
+            autoplay: false,
             // fade:true,
             pauseOnHover: false,
             adaptiveHeight: true
