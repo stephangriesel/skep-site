@@ -81,13 +81,16 @@
     }
   }
   .office-people {
-    background-image: url('../img/office/people-header.jpg');
-    background-size: cover;
+    // background-image: url('../img/office/people-header.jpg');
+    // background-size: cover;
     justify-content: center;
     align-items: center;
-    height: 60vh;
-    font-size: 1.8em;
+    // height: 60vh;
+    font-size: 1.4em;
     width: 100%;
+    h2 {
+      color: #3a3a3a;
+    }
   }
 
   .people-name {

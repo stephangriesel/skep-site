@@ -97,7 +97,7 @@ class Office extends Component {
                         </div>
                     </section>
                     <header className="office-people">
-                        <h1>People</h1>
+                        <h2>SKEP Team</h2>
                     </header>
                     <React.Fragment>
                         <main className="office-card">

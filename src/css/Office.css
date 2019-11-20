@@ -144,17 +144,18 @@
 }
 
 .center-wrapper .office-people {
-  background-image: url("../img/office/people-header.jpg");
-  background-size: cover;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 60vh;
-  font-size: 1.8em;
+  font-size: 1.4em;
   width: 100%;
+}
+
+.center-wrapper .office-people h2 {
+  color: #3a3a3a;
 }
 
 .center-wrapper .people-name {
