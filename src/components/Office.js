@@ -81,6 +81,7 @@ class Office extends Component {
                             <p>Plein Street 4</p>
                             <p>Anglo African Building</p>
                             <p>Stellenbosch, 7600</p>
+                            <p className="space">-</p>
                             <h3>P.O. Box Address</h3>
                             <p>P.O. Box 396</p>
                             <p>Stellenbosch, 7599</p>
@@ -89,9 +90,11 @@ class Office extends Component {
                             <h3>Contact</h3>
                             <p>Geraldine: </p>
                             <p>082 523 8123</p>
+                            <p><a href="mailto:geraldine@skepstudio.co.za">geraldine@skepstudio.co.za</a></p>
                             <p className="space">-</p>
                             <p>Carla: </p>
                             <p>082 863 3482</p>
+                            <p><a href="mailto:carla@skepstudio.co.za">carla@skepstudio.co.za</a></p>
                             <h3>Office Number</h3>
                             <p>021 882 9450</p>
                         </div>
