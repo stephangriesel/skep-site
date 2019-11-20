@@ -189,7 +189,7 @@ class Office extends Component {
                                 <div className="info">
                                     <strong class="people-name">Lumari Pretorius</strong>
                                     <h5><em>Architect and interior designer</em></h5>
-                                    <p>National Certificate in Interior design TUT (Tshwane University of Technology) – 2005</p>
+                                    <p>Graduated with a BArch at Nelson Mandela University 2019</p>
                                     <p><strong>Loves:</strong> Learning new things, designing and going on adventures</p>
                                     <p><strong>Superpowers:</strong> Dynamite comes in small package</p>
                                 </div>
