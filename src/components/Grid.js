@@ -31,6 +31,7 @@ import psgjhbCover from '../img/covers/psgjohannesburg-2015-cover.jpg';
 import synexusclinicCover from '../img/covers/synexusclinic-2016-cover.jpg';
 import travelstartCover from '../img/covers/travelstart-2015-cover.jpg';
 import zederCover from '../img/covers/zeder-2017-cover.jpg';
+import yachtclubCover from '../img/covers/yachtclub-2018-cover.jpg';
 
 class Grid extends Component {
   render() {
@@ -382,6 +383,19 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>Zeder</h5>
+              {/* <p className="year">Year: 2017</p> */}
+              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+            </div>
+          </div>
+          <div className="card">
+            <a href="/projecthirtythree">
+              <img
+                src={yachtclubCover}
+                alt="Yachtclub"
+              />
+            </a>
+            <div className="info">
+              <h5>Yachtclub</h5>
               {/* <p className="year">Year: 2017</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
