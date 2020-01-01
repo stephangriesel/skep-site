@@ -388,7 +388,7 @@ class Grid extends Component {
             </div>
           </div>
           <div className="card">
-            <a href="/projecthirtythree">
+            <a href="/projectthirtythree">
               <img
                 src={yachtclubCover}
                 alt="Yachtclub"

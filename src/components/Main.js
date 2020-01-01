@@ -45,8 +45,8 @@ const Main = () => (
         <Switch>
             <Route exact path="/" component={Grid} />
             <Route path="/office" component={Office} />
-            <Route path="/shop" component={Shop} />
-            <Route path="/contact" component={Contact} />
+            {/* <Route path="/shop" component={Shop} />
+            <Route path="/contact" component={Contact} /> */}
 
             {/* <<<< Project links >>>>> */}
             <Route path="/projectone" component={ProjectOne} />
