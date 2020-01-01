@@ -17,12 +17,15 @@ main .card {
 }
 
 .info {
-  text-align: left;
+  text-align: center;
   margin: 0.8em;
   h5 {
-    color: #0a244d;
+    color: #a98f71;
     padding: 0;
     margin: 0;
+    font-size: 1.3em;
+    font-weight: 100;
+    letter-spacing: 0.2em;
   }
   p {
     // font-size: 0.8em;
@@ -46,5 +49,10 @@ main .card:hover {
 
 main .card img {
   width: 100%;
+}
+
+@media (min-width: 769px) {
+  .info {
+    margin: 0.0em;
 }
 /*# sourceMappingURL=style.css.map */
