@@ -46,4 +46,10 @@ main .card:hover {
 main .card img {
   width: 100%;
 }
+
+@media (max-width: 769px) {
+  .info {
+    text-align: left;
+  }
+}
 /*# sourceMappingURL=Grid.css.map */

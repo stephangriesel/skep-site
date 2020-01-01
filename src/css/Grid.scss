@@ -51,8 +51,9 @@ main .card img {
   width: 100%;
 }
 
-@media (min-width: 769px) {
+@media (max-width: 769px) {
   .info {
-    margin: 0.0em;
+    text-align: left;
+  }
 }
 /*# sourceMappingURL=style.css.map */
