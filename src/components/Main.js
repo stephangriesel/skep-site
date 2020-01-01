@@ -44,6 +44,7 @@ import ProjectThirtyfour from './projects/ProjectThirtyfour';
 import ProjectThirtysix from './projects/ProjectThirtysix';
 import ProjectThirtyseven from './projects/ProjectThirtyseven';
 import ProjectThirtyeight from './projects/ProjectThirtyeight';
+import ProjectThirtynine from './projects/ProjectThirtynine';
 
 const Main = () => (
     <div className="main-section">
@@ -91,6 +92,7 @@ const Main = () => (
             <Route path="/projectthirtysix" component={ProjectThirtysix} />
             <Route path="/projectthirtyseven" component={ProjectThirtyseven} />
             <Route path="/projectthirtyeight" component={ProjectThirtyeight} />
+            <Route path="/projectthirtynine" component={ProjectThirtynine} />
         </Switch>
     </div>
 

@@ -36,6 +36,7 @@ import atkvhartenbosCover from '../img/covers/atkvhartenbos-2019-cover.jpg';
 import detorenCover from '../img/covers/detoren-2019-cover.jpg';
 import famousbrandsCover from '../img/covers/famousbrands-2019-cover.jpg';
 import sfostellenboschCover from '../img/covers/sfostellenbosch-2019-cover.jpg';
+import franschhoekhugenotmuseumCover from '../img/covers/franschhoekhugenotmuseum-2019-cover.jpg';
 
 class Grid extends Component {
   render() {
@@ -452,6 +453,19 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>SFO Stellenbosch</h5>
+              {/* <p className="year">Year: 2017</p> */}
+              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+            </div>
+          </div>
+          <div className="card">
+            <a href="/projectthirtynine">
+              <img
+                src={franschhoekhugenotmuseumCover}
+                alt="SFO Stellenbosch"
+              />
+            </a>
+            <div className="info">
+              <h5>Franschhoek Hugenot Museum</h5>
               {/* <p className="year">Year: 2017</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
