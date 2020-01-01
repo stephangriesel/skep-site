@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import '../../css/ImageSlider.css';
-import ProjectThirtythreeContent from './ProjectThirtythreeContent';
+import ProjectThirtyfourContent from './ProjectThirtyfourContent';
 
-class ProjectThirtythree extends Component {
+class ProjectThirtyfour extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -13,10 +13,10 @@ class ProjectThirtythree extends Component {
     render() {
         return (
             <div id="page-container">
-                <ProjectThirtythreeContent />
+                <ProjectThirtyfourContent />
             </div>
         )
     }
 }
 
-export default ProjectThirtythree;
+export default ProjectThirtyfour;

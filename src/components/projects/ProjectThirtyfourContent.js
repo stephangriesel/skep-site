@@ -1,16 +1,16 @@
 import React, { Component } from 'react'
 import '../../css/Carousel.css';
 import Slider from "react-slick";
-import coverimage from '../../img/projects/project33-yachtclub/yachtclub-2018-cover.jpg';
-import oneimage from '../../img/projects/project33-yachtclub/yachtclub-2018-1.jpg';
-import twoimage from '../../img/projects/project33-yachtclub/yachtclub-2018-2.jpg';
-import threeimage from '../../img/projects/project33-yachtclub/yachtclub-2018-4.jpg';
-import fourimage from '../../img/projects/project33-yachtclub/yachtclub-2018-4.jpg';
-import fiveimage from '../../img/projects/project33-yachtclub/yachtclub-2018-5.jpg';
-// import siximage from '../../img/projects/project33-yachtclub/yachtclub-2018-6.jpg';
-// import eightimage from '../../img/projects/project33-yachtclub/yachtclub-2018-8.jpg';
+import coverimage from '../../img/projects/project34-hartenbos/atkvhartenbos-2019-cover.jpg';
+import oneimage from '../../img/projects/project34-hartenbos/atkvhartenbos-2019-1.jpg';
+import twoimage from '../../img/projects/project34-hartenbos/atkvhartenbos-2019-2.jpg';
+// import threeimage from '../../img/projects/project34-hartenbos/yachtclub-2018-4.jpg';
+// import fourimage from '../../img/projects/project34-hartenbos/yachtclub-2018-4.jpg';
+// import fiveimage from '../../img/projects/project34-hartenbos/yachtclub-2018-5.jpg';
+// import siximage from '../../img/projects/project34-hartenbos/yachtclub-2018-6.jpg';
+// import eightimage from '../../img/projects/project34-hartenbos/yachtclub-2018-8.jpg';
 
-class ProjectThirtythreeContent extends Component {
+class ProjectThirtyfourContent extends Component {
     render() {
         var settings = {
             dots: true,
@@ -37,7 +37,7 @@ class ProjectThirtythreeContent extends Component {
                 <div className="slide-image">
                     <img src={twoimage} alt="slideimage" />
                 </div>
-                <div className="slide-image">
+                {/* <div className="slide-image">
                     <img src={threeimage} alt="slideimage" />
                 </div>
                 <div className="slide-image">
@@ -45,7 +45,7 @@ class ProjectThirtythreeContent extends Component {
                 </div>
                 <div className="slide-image">
                     <img src={fiveimage} alt="slideimage" />
-                </div>
+                </div> */}
                 {/* <div className="slide-image">
                     <img src={siximage} alt="slideimage" />
                 </div>
@@ -58,4 +58,4 @@ class ProjectThirtythreeContent extends Component {
     }
 }
 
-export default ProjectThirtythreeContent;
+export default ProjectThirtyfourContent;
