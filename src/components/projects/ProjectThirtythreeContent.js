@@ -7,8 +7,6 @@ import twoimage from '../../img/projects/project33-yachtclub/yachtclub-2018-2.jp
 import threeimage from '../../img/projects/project33-yachtclub/yachtclub-2018-4.jpg';
 import fourimage from '../../img/projects/project33-yachtclub/yachtclub-2018-4.jpg';
 import fiveimage from '../../img/projects/project33-yachtclub/yachtclub-2018-5.jpg';
-// import siximage from '../../img/projects/project33-yachtclub/yachtclub-2018-6.jpg';
-// import eightimage from '../../img/projects/project33-yachtclub/yachtclub-2018-8.jpg';
 
 class ProjectThirtythreeContent extends Component {
     render() {
@@ -46,12 +44,6 @@ class ProjectThirtythreeContent extends Component {
                 <div className="slide-image">
                     <img src={fiveimage} alt="slideimage" />
                 </div>
-                {/* <div className="slide-image">
-                    <img src={siximage} alt="slideimage" />
-                </div>
-                <div className="slide-image">
-                    <img src={eightimage} alt="slideimage" />
-                </div> */}
             </Slider>
 
         )

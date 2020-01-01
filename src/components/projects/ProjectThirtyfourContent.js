@@ -4,11 +4,6 @@ import Slider from "react-slick";
 import coverimage from '../../img/projects/project34-hartenbos/atkvhartenbos-2019-cover.jpg';
 import oneimage from '../../img/projects/project34-hartenbos/atkvhartenbos-2019-1.jpg';
 import twoimage from '../../img/projects/project34-hartenbos/atkvhartenbos-2019-2.jpg';
-// import threeimage from '../../img/projects/project34-hartenbos/yachtclub-2018-4.jpg';
-// import fourimage from '../../img/projects/project34-hartenbos/yachtclub-2018-4.jpg';
-// import fiveimage from '../../img/projects/project34-hartenbos/yachtclub-2018-5.jpg';
-// import siximage from '../../img/projects/project34-hartenbos/yachtclub-2018-6.jpg';
-// import eightimage from '../../img/projects/project34-hartenbos/yachtclub-2018-8.jpg';
 
 class ProjectThirtyfourContent extends Component {
     render() {
@@ -37,21 +32,6 @@ class ProjectThirtyfourContent extends Component {
                 <div className="slide-image">
                     <img src={twoimage} alt="slideimage" />
                 </div>
-                {/* <div className="slide-image">
-                    <img src={threeimage} alt="slideimage" />
-                </div>
-                <div className="slide-image">
-                    <img src={fourimage} alt="slideimage" />
-                </div>
-                <div className="slide-image">
-                    <img src={fiveimage} alt="slideimage" />
-                </div> */}
-                {/* <div className="slide-image">
-                    <img src={siximage} alt="slideimage" />
-                </div>
-                <div className="slide-image">
-                    <img src={eightimage} alt="slideimage" />
-                </div> */}
             </Slider>
 
         )
