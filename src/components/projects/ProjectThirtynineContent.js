@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import coverimage from '../../img/projects/project39-franschhoekhugenotmuseum/franschhoekhugenotmuseum-2019-cover.jpg';
 import oneimage from '../../img/projects/project39-franschhoekhugenotmuseum/franschhoekhugenotmuseum-2019-1.jpg';
 import twoimage from '../../img/projects/project39-franschhoekhugenotmuseum/franschhoekhugenotmuseum-2019-2.jpg';
-import threeimage from '../../img/projects/project39-franschhoekhugenotmuseum/franschhoekhugenotmuseum-2019-4.jpg';
+import threeimage from '../../img/projects/project39-franschhoekhugenotmuseum/franschhoekhugenotmuseum-2019-3.jpg';
 import fourimage from '../../img/projects/project39-franschhoekhugenotmuseum/franschhoekhugenotmuseum-2019-4.jpg';
 import fiveimage from '../../img/projects/project39-franschhoekhugenotmuseum/franschhoekhugenotmuseum-2019-5.jpg';
 import siximage from '../../img/projects/project39-franschhoekhugenotmuseum/franschhoekhugenotmuseum-2019-6.jpg';

@@ -4,10 +4,11 @@ import Slider from "react-slick";
 import coverimage from '../../img/projects/project37-famousbrands/famousbrands-2019-cover.jpg';
 import oneimage from '../../img/projects/project37-famousbrands/famousbrands-2019-1.jpg';
 import twoimage from '../../img/projects/project37-famousbrands/famousbrands-2019-2.jpg';
-import threeimage from '../../img/projects/project37-famousbrands/famousbrands-2019-4.jpg';
+import threeimage from '../../img/projects/project37-famousbrands/famousbrands-2019-3.jpg';
 import fourimage from '../../img/projects/project37-famousbrands/famousbrands-2019-4.jpg';
 import fiveimage from '../../img/projects/project37-famousbrands/famousbrands-2019-5.jpg';
 import siximage from '../../img/projects/project37-famousbrands/famousbrands-2019-6.jpg';
+import sevenimage from '../../img/projects/project37-famousbrands/famousbrands-2019-7.jpg';
 import eightimage from '../../img/projects/project37-famousbrands/famousbrands-2019-8.jpg';
 
 class ProjectThirtysevenContent extends Component {
@@ -48,6 +49,9 @@ class ProjectThirtysevenContent extends Component {
                 </div>
                 <div className="slide-image">
                     <img src={siximage} alt="slideimage" />
+                </div>
+                <div className="slide-image">
+                    <img src={sevenimage} alt="slideimage" />
                 </div>
                 <div className="slide-image">
                     <img src={eightimage} alt="slideimage" />
