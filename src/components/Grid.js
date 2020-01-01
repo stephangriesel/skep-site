@@ -32,7 +32,8 @@ import synexusclinicCover from '../img/covers/synexusclinic-2016-cover.jpg';
 import travelstartCover from '../img/covers/travelstart-2015-cover.jpg';
 import zederCover from '../img/covers/zeder-2017-cover.jpg';
 import yachtclubCover from '../img/covers/yachtclub-2018-cover.jpg';
-import atkvhartenbosCover from '../img/covers/atkvhartenbos-2019-cover.jpg'
+import atkvhartenbosCover from '../img/covers/atkvhartenbos-2019-cover.jpg';
+import detorenCover from '../img/covers/detoren-2019-cover.jpg';
 
 class Grid extends Component {
   render() {
@@ -410,6 +411,19 @@ class Grid extends Component {
             </a>
             <div className="info">
               <h5>ATKV Hartenbos</h5>
+              {/* <p className="year">Year: 2017</p> */}
+              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+            </div>
+          </div>
+          <div className="card">
+            <a href="/projectthirtysix">
+              <img
+                src={detorenCover}
+                alt="De Toren"
+              />
+            </a>
+            <div className="info">
+              <h5>De Toren</h5>
               {/* <p className="year">Year: 2017</p> */}
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
