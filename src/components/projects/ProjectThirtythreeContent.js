@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import coverimage from '../../img/projects/project33-yachtclub/yachtclub-2018-cover.jpg';
 import oneimage from '../../img/projects/project33-yachtclub/yachtclub-2018-1.jpg';
 import twoimage from '../../img/projects/project33-yachtclub/yachtclub-2018-2.jpg';
-import threeimage from '../../img/projects/project33-yachtclub/yachtclub-2018-4.jpg';
+import threeimage from '../../img/projects/project33-yachtclub/yachtclub-2018-3.jpg';
 import fourimage from '../../img/projects/project33-yachtclub/yachtclub-2018-4.jpg';
 import fiveimage from '../../img/projects/project33-yachtclub/yachtclub-2018-5.jpg';
 
