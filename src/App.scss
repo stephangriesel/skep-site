@@ -1,11 +1,10 @@
-
 .App {
   text-align: center;
 }
 
 .wrapper {
   // max-width:1050px;
-  margin:auto;
+  margin: auto;
 }
 
 #page-container {
@@ -14,14 +13,16 @@
 }
 
 #content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
+  padding-bottom: 2.5rem; /* Footer height */
+  // display: inline-grid;
+  // justify-items: center;
 }
 
 #footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;            /* Footer height */
+  height: 2.5rem; /* Footer height */
 }
 
 .App-logo {
@@ -46,17 +47,28 @@
 }
 
 @media (min-width: 769px) {
+  // #content-wrap {
+  //   display: inline-grid;
+  //   justify-items: center;
+  // }
   #page-container {
     position: relative;
     min-height: 100%;
-    margin-bottom:2em;
+    margin-bottom: 2em;
   }
 }
 
 @media (max-width: 769px) {
+  #content-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+  }
   #page-container {
     position: relative;
     min-height: auto;
-    margin-bottom:2em;
+    margin-bottom: 2em;
   }
 }

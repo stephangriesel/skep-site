@@ -22,7 +22,8 @@
 }
 
 .loading h3 {
-  color: #0a244c;
+  color: #a98f71;
+  letter-spacing: 0.2em;
 }
 
 @-webkit-keyframes blinker {
@@ -50,5 +51,17 @@
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in-out;
   -webkit-animation-direction: alternate;
+}
+
+@media (max-width: 769px) {
+  #loading {
+    justify-items: center;
+    display: -ms-inline-grid;
+    display: inline-grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 35em;
+  }
 }
 /*# sourceMappingURL=Loading.css.map */
