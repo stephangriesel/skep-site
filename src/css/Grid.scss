@@ -51,7 +51,13 @@ main .card img {
   width: 100%;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 900px) {
+  main {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    cursor: pointer;
+  }
   .info {
     text-align: center;
   }
