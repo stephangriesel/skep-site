@@ -69,7 +69,7 @@ class Grid extends Component {
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
             </div>
           </div>
-          <div className="card">
+          {/* <div className="card">
             <a href="/projectthree">
               <img
                 src={fourtythreeonpleinCover}
@@ -77,12 +77,12 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h5>43 on Plein</h5>
-              {/* <p className="year">Year: 2017</p> */}
-              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
-            </div>
-          </div>
-          <div className="card">
+              <h5>43 on Plein</h5> */}
+          {/* <p className="year">Year: 2017</p> */}
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+          {/* </div>
+          </div> */}
+          {/* <div className="card">
             <a href="/projectfour">
               <img
                 src={dorpstraatboutiquehotelCover}
@@ -90,12 +90,12 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h5>Dorpstraat Boutique Hotel</h5>
-              {/* <p className="year">Year: 2015</p> */}
-              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
-            </div>
-          </div>
-          <div className="card">
+              <h5>Dorpstraat Boutique Hotel</h5> */}
+          {/* <p className="year">Year: 2015</p> */}
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+          {/* </div>
+          </div> */}
+          {/* <div className="card">
             <a href="/projectfive">
               <img
                 src={psgstellenboschCover}
@@ -103,12 +103,12 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h5>PSG Stellenbosch</h5>
-              {/* <p className="year">Year: 2015</p> */}
-              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
-            </div>
-          </div>
-          <div className="card">
+              <h5>PSG Stellenbosch</h5> */}
+          {/* <p className="year">Year: 2015</p> */}
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+          {/* </div>
+          </div> */}
+          {/* <div className="card">
             <a href="/projectsix">
               <img
                 src={rootstockCover}
@@ -116,12 +116,12 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h5>Rootstock</h5>
-              {/* <p className="year">Year: 2015</p> */}
-              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
-            </div>
-          </div>
-          <div className="card">
+              <h5>Rootstock</h5> */}
+          {/* <p className="year">Year: 2015</p> */}
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+          {/* </div>
+          </div> */}
+          {/* <div className="card">
             <a href="/projectseven">
               <img
                 src={singletrackspinningstudioCover}
@@ -129,12 +129,12 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h5>Single Track Spinning Studio</h5>
-              {/* <p className="year">Year: 2018</p> */}
-              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
-            </div>
-          </div>
-          <div className="card">
+              <h5>Single Track Spinning Studio</h5> */}
+          {/* <p className="year">Year: 2018</p> */}
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+          {/* </div>
+          </div> */}
+          {/* <div className="card">
             <a href="/projecteight">
               <img
                 src={ellermanhouseCover}
@@ -142,12 +142,12 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h5>Ellerman House</h5>
-              {/* <p className="year">Year: 2018</p> */}
-              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
-            </div>
-          </div>
-          <div className="card">
+              <h5>Ellerman House</h5> */}
+          {/* <p className="year">Year: 2018</p> */}
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+          {/* </div>
+          </div> */}
+          {/* <div className="card">
             <a href="/projectnine">
               <img
                 src={lecoetzenburgCover}
@@ -155,11 +155,11 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h5>Le Coetzenburg</h5>
-              {/* <p className="year">Year: 2019</p> */}
-              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
-            </div>
-          </div>
+              <h5>Le Coetzenburg</h5> */}
+          {/* <p className="year">Year: 2019</p> */}
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+          {/* </div>
+          </div> */}
           {/* <div className="card">
             <a href="/projectten">
               <img
@@ -184,7 +184,7 @@ class Grid extends Component {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p>
             </div>
           </div> */}
-          <div className="card">
+          {/* <div className="card">
             <a href="/projecttwelve">
               <img
                 src={banhoeklodgeCover}
@@ -192,12 +192,12 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h5>Banhoek</h5>
-              {/* <p className="year">Year: 2018</p> */}
-              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
-            </div>
-          </div>
-          <div className="card">
+              <h5>Banhoek</h5> */}
+          {/* <p className="year">Year: 2018</p> */}
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+          {/* </div>
+          </div> */}
+          {/* <div className="card">
             <a href="/projectthirteen">
               <img
                 src={bakhovenhouseCover}
@@ -205,12 +205,12 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h5>Bakhoven</h5>
-              {/* <p className="year">Year: 2016</p> */}
-              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
-            </div>
-          </div>
-          <div className="card">
+              <h5>Bakhoven</h5> */}
+          {/* <p className="year">Year: 2016</p> */}
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+          {/* </div>
+          </div> */}
+          {/* <div className="card">
             <a href="/projectfourteen">
               <img
                 src={chilloesCover}
@@ -218,12 +218,12 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h5>Chilloes</h5>
-              {/* <p className="year">Year: 2016</p> */}
-              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
-            </div>
-          </div>
-          <div className="card">
+              <h5>Chilloes</h5> */}
+          {/* <p className="year">Year: 2016</p> */}
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+          {/* </div>
+          </div> */}
+          {/* <div className="card">
             <a href="/projectfifteen">
               <img
                 src={fintecCover}
@@ -231,12 +231,12 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h5>Fintec</h5>
-              {/* <p className="year">Year: 2017</p> */}
-              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
-            </div>
-          </div>
-          <div className="card">
+              <h5>Fintec</h5> */}
+          {/* <p className="year">Year: 2017</p> */}
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+          {/* </div>
+          </div> */}
+          {/* <div className="card">
             <a href="/projectsixteen">
               <img
                 src={fairtreeCover}
@@ -244,12 +244,12 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h5>Fairtree</h5>
-              {/* <p className="year">Year: 2015</p> */}
-              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
-            </div>
-          </div>
-          <div className="card">
+              <h5>Fairtree</h5> */}
+          {/* <p className="year">Year: 2015</p> */}
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+          {/* </div>
+          </div> */}
+          {/* <div className="card">
             <a href="/projectseventeen">
               <img
                 src={houseboschCover}
@@ -257,12 +257,12 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h5>House Bosch</h5>
-              {/* <p className="year">Year: 2017</p> */}
-              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
-            </div>
-          </div>
-          <div className="card">
+              <h5>House Bosch</h5> */}
+          {/* <p className="year">Year: 2017</p> */}
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+          {/* </div>
+          </div> */}
+          {/* <div className="card">
             <a href="/projecteighteen">
               <img
                 src={sanlameerCover}
@@ -270,12 +270,12 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h5>Sanlameer</h5>
-              {/* <p className="year">Year: 2015</p> */}
-              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
-            </div>
-          </div>
-          <div className="card">
+              <h5>Sanlameer</h5> */}
+          {/* <p className="year">Year: 2015</p> */}
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+          {/* </div>
+          </div> */}
+          {/* <div className="card">
             <a href="/projectnineteen">
               <img
                 src={houseknoesenCover}
@@ -283,12 +283,12 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h5>House Knoesen</h5>
-              {/* <p className="year">Year: 2016</p> */}
-              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
-            </div>
-          </div>
-          <div className="card">
+              <h5>House Knoesen</h5> */}
+          {/* <p className="year">Year: 2016</p> */}
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+          {/* </div>
+          </div> */}
+          {/* <div className="card">
             <a href="/projecttwenty">
               <img
                 src={imperialmanagedCover}
@@ -296,12 +296,12 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h5>Imperial Managed</h5>
-              {/* <p className="year">Year: 2014</p> */}
-              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
-            </div>
-          </div>
-          <div className="card">
+              <h5>Imperial Managed</h5> */}
+          {/* <p className="year">Year: 2014</p> */}
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+          {/* </div>
+          </div> */}
+          {/* <div className="card">
             <a href="/projecttwentyone">
               <img
                 src={jamessedgwickdistilleryCover}
@@ -309,12 +309,12 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h5>James Sedgwick Distillery</h5>
-              {/* <p className="year">Year: 2016</p> */}
-              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
-            </div>
-          </div>
-          <div className="card">
+              <h5>James Sedgwick Distillery</h5> */}
+          {/* <p className="year">Year: 2016</p> */}
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+          {/* </div>
+          </div> */}
+          {/* <div className="card">
             <a href="/projecttwentytwo">
               <img
                 src={moerbyCover}
@@ -322,12 +322,12 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h5>Moerby</h5>
-              {/* <p className="year">Year: 2016</p> */}
-              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
-            </div>
-          </div>
-          <div className="card">
+              <h5>Moerby</h5> */}
+          {/* <p className="year">Year: 2016</p> */}
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+          {/* </div>
+          </div> */}
+          {/* <div className="card">
             <a href="/projecttwentythree">
               <img
                 src={oakhillchurchCover}
@@ -335,12 +335,12 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h5>Oakhill Church</h5>
-              {/* <p className="year">Year: 2015</p> */}
-              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
-            </div>
-          </div>
-          <div className="card">
+              <h5>Oakhill Church</h5> */}
+          {/* <p className="year">Year: 2015</p> */}
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+          {/* </div>
+          </div> */}
+          {/* <div className="card">
             <a href="/projecttwentyfour">
               <img
                 src={psgjhbCover}
@@ -348,12 +348,12 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h5>PSG Johannesburg</h5>
-              {/* <p className="year">Year: 2015</p> */}
-              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
-            </div>
-          </div>
-          <div className="card">
+              <h5>PSG Johannesburg</h5> */}
+          {/* <p className="year">Year: 2015</p> */}
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+          {/* </div>
+          </div> */}
+          {/* <div className="card">
             <a href="/projecttwentyfive">
               <img
                 src={synexusclinicCover}
@@ -361,11 +361,11 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h5>Synexus CLinic</h5>
-              {/* <p className="year">Year: 2016</p> */}
-              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
-            </div>
-          </div>
+              <h5>Synexus CLinic</h5> */}
+          {/* <p className="year">Year: 2016</p> */}
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+          {/* </div>
+          </div> */}
           <div className="card">
             <a href="/projecttwentysix">
               <img
@@ -471,7 +471,7 @@ class Grid extends Component {
             </div>
           </div>
 
-        </main>
+        </main >
         <Placeholder>
           <div className="loading">
             <div>
@@ -482,7 +482,7 @@ class Grid extends Component {
             </div>
           </div>
         </Placeholder>
-      </Preloader>
+      </Preloader >
     )
   }
 }
