@@ -44,9 +44,6 @@ class ProjectTwoContent extends Component {
                 <div className="slide-image">
                     <img src="https://res.cloudinary.com/dvme554nj/image/upload/w_1500,f_auto/v1579672073/skep/Oubaai/oubaai-2018-7.jpg" alt="slideimage" />
                 </div>
-                {/* <div className="slide-image">
-                    <img src="https://res.cloudinary.com/dvme554nj/image/upload/w_1500,f_auto/v1579672073/skep/Oubaai/oubaai-2018-7.jpg" alt="slideimage" />
-                </div> */}
             </Slider>
 
         )
