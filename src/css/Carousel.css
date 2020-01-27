@@ -31,4 +31,9 @@
 
 .slide-image img {
   width: 70%;
+  height: auto;
+}
+
+.slick-slide {
+  height: auto;
 }

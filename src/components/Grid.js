@@ -366,7 +366,7 @@ class Grid extends Component {
           {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
           {/* </div>
           </div> */}
-          <div className="card">
+          {/* <div className="card">
             <a href="/projecttwentysix">
               <img
                 src={travelstartCover}
@@ -374,12 +374,12 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h5>Travelstart</h5>
-              {/* <p className="year">Year: 2015</p> */}
-              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
-            </div>
-          </div>
-          <div className="card">
+              <h5>Travelstart</h5> */}
+          {/* <p className="year">Year: 2015</p> */}
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+          {/* </div>
+          </div> */}
+          {/* <div className="card">
             <a href="/projecttwentyseven">
               <img
                 src={zederCover}
@@ -387,11 +387,11 @@ class Grid extends Component {
               />
             </a>
             <div className="info">
-              <h5>Zeder</h5>
-              {/* <p className="year">Year: 2017</p> */}
-              {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
-            </div>
-          </div>
+              <h5>Zeder</h5> */}
+          {/* <p className="year">Year: 2017</p> */}
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus similique explicabo voluptates, quod nostrum? Obcaecati incidunt adipisci aut quaerat?</p> */}
+          {/* </div>
+          </div> */}
           <div className="card">
             <a href="/projectthirtythree">
               <img
