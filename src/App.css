@@ -58,9 +58,12 @@
 
 @media (max-width: 769px) {
   #page-container {
+    overflow: none;
     width: 100%;
+    max-height: 100;
+  }
+  #page-container img {
     height: 100%;
-    margin-bottom: 8em;
   }
   #content-wrap {
     display: -webkit-box;
