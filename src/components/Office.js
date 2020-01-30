@@ -105,7 +105,7 @@ class Office extends Component {
                     <React.Fragment>
                         <main className="office-card">
                             <div className="office-card">
-                                <img
+                                <img class="office-img"
                                     src={geraldine}
                                     alt="Geraldine"
 
@@ -119,11 +119,9 @@ class Office extends Component {
                                 </div>
                             </div>
                             <div className="office-card">
-
-                                <img
+                                <img className="office-img"
                                     src={carla}
                                     alt="Carla"
-
                                 />
 
                                 <div className="info">
@@ -135,11 +133,9 @@ class Office extends Component {
                                 </div>
                             </div>
                             <div className="office-card">
-
-                                <img
+                                <img className="office-img"
                                     src={charlotte}
                                     alt="Charlotte"
-
                                 />
 
                                 <div className="info">
@@ -152,10 +148,9 @@ class Office extends Component {
                             </div>
                             <div className="office-card">
 
-                                <img
+                                <img className="office-img"
                                     src={christi}
                                     alt="Christi"
-                                    className="img"
                                 />
 
                                 <div className="info">
@@ -168,10 +163,9 @@ class Office extends Component {
                             </div>
                             <div className="office-card">
 
-                                <img
+                                <img className="office-img"
                                     src={kulsum}
                                     alt="Kulsum"
-                                    className="img"
                                 />
 
                                 <div className="info">
@@ -183,10 +177,9 @@ class Office extends Component {
                             </div>
                             <div className="office-card">
 
-                                <img
+                                <img className="office-img"
                                     src={lumari}
                                     alt="Lumari"
-                                    className="img"
                                 />
 
                                 <div className="info">

@@ -205,6 +205,11 @@
   border-radius: 50%;
 }
 
+.center-wrapper .office-card .office-img {
+  width: 100%;
+  height: auto !important;
+}
+
 .center-wrapper .client-card {
   display: -ms-grid;
   display: grid;
